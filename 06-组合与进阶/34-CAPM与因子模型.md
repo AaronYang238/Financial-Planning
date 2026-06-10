@@ -156,6 +156,8 @@ $$
 | **SMB**（Small Minus Big）| 小市值股 - 大市值股的回报差 |
 | **HML**（High Minus Low）| 高 BM (低 PB) - 低 BM 股的回报差 |
 
+![从 CAPM 到三因子：解释力 60-70% → 90%+](../assets/ch34-2.svg)
+
 ### 3.2 因子的"故事"
 
 **SMB（规模因子）**：

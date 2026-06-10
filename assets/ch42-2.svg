@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" width="100%" style="max-width:720px;display:block;margin:1em auto;background:#fafafa;border-radius:8px">
+  <text x="360" y="28" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="bold" fill="#1f2937">复盘循环：记录的终点是改进下一次决策</text>
+  <!-- 环形四节点 -->
+  <!-- 上：记录 -->
+  <rect x="290" y="55" width="140" height="62" rx="8" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
+  <text x="360" y="80" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="bold" fill="#1e3a8a">① 记录</text>
+  <text x="360" y="100" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#1e3a8a">交易流水 + 当时的理由</text>
+  <!-- 右：量化 -->
+  <rect x="510" y="170" width="150" height="62" rx="8" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+  <text x="585" y="195" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="bold" fill="#14532d">② 量化</text>
+  <text x="585" y="215" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#14532d">净资产快照 + XIRR</text>
+  <!-- 下：复盘 -->
+  <rect x="290" y="290" width="140" height="62" rx="8" fill="#fef3c7" stroke="#d97706" stroke-width="2"/>
+  <text x="360" y="315" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="bold" fill="#78350f">③ 复盘</text>
+  <text x="360" y="335" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#78350f">季度 30 分钟 / 年度 2 小时</text>
+  <!-- 左：改进 -->
+  <rect x="60" y="170" width="150" height="62" rx="8" fill="#fee2e2" stroke="#dc2626" stroke-width="2"/>
+  <text x="135" y="195" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="bold" fill="#991b1b">④ 改进</text>
+  <text x="135" y="215" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#991b1b">修正规则，不靠意志力</text>
+  <!-- 环形箭头 -->
+  <path d="M 436 100 Q 560 110, 580 164" stroke="#374151" stroke-width="2" fill="none" marker-end="url(#a42)"/>
+  <path d="M 580 238 Q 560 300, 436 318" stroke="#374151" stroke-width="2" fill="none" marker-end="url(#a42)"/>
+  <path d="M 284 318 Q 160 300, 140 238" stroke="#374151" stroke-width="2" fill="none" marker-end="url(#a42)"/>
+  <path d="M 140 164 Q 160 110, 284 100" stroke="#374151" stroke-width="2" fill="none" marker-end="url(#a42)"/>
+  <!-- 中心 -->
+  <circle cx="360" cy="205" r="55" fill="#f3f4f6" stroke="#6b7280" stroke-width="2"/>
+  <text x="360" y="195" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="bold" fill="#374151">复盘三问</text>
+  <text x="360" y="213" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#374151">哪个操作错了？</text>
+  <text x="360" y="228" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#374151">错在情绪还是判断？</text>
+  <text x="360" y="243" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#374151">下季改什么规则？</text>
+  <defs>
+    <marker id="a42" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 z" fill="#374151"/>
+    </marker>
+  </defs>
+</svg>

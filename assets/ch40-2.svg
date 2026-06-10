@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 320" width="100%" style="max-width:720px;display:block;margin:1em auto;background:#fafafa;border-radius:8px">
+  <text x="360" y="28" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="bold" fill="#1f2937">持仓集中度标尺：前 10 大重仓占基金净值的比例</text>
+  <!-- 标尺主体 -->
+  <rect x="60" y="120" width="120" height="50" fill="#93c5fd" stroke="#2563eb" stroke-width="1.5"/>
+  <rect x="180" y="120" width="120" height="50" fill="#a7f3d0" stroke="#16a34a" stroke-width="1.5"/>
+  <rect x="300" y="120" width="120" height="50" fill="#4ade80" stroke="#16a34a" stroke-width="2.5"/>
+  <rect x="420" y="120" width="120" height="50" fill="#fdba74" stroke="#ea580c" stroke-width="1.5"/>
+  <rect x="540" y="120" width="120" height="50" fill="#f87171" stroke="#dc2626" stroke-width="1.5"/>
+  <!-- 区间标签 -->
+  <text x="120" y="150" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="bold" fill="#1e3a8a">&lt; 30%</text>
+  <text x="240" y="150" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="bold" fill="#14532d">30-50%</text>
+  <text x="360" y="150" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="bold" fill="#14532d">50-70%</text>
+  <text x="480" y="150" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="bold" fill="#7c2d12">70-90%</text>
+  <text x="600" y="150" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="bold" fill="#7f1d1d">&gt; 90%</text>
+  <!-- 上方说明 -->
+  <text x="120" y="100" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#1e3a8a">极度分散</text>
+  <text x="120" y="85" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#6b7280">像指数但收主动费</text>
+  <text x="240" y="100" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#14532d">适度分散</text>
+  <text x="360" y="100" text-anchor="middle" font-family="sans-serif" font-size="10" font-weight="bold" fill="#14532d">★ 甜蜜区</text>
+  <text x="360" y="85" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#6b7280">典型主动基金</text>
+  <text x="480" y="100" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#7c2d12">重仓押注</text>
+  <text x="600" y="100" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#7f1d1d">极度集中</text>
+  <text x="600" y="85" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#6b7280">风险大</text>
+  <!-- 下方箭头说明 -->
+  <path d="M 80 210 L 640 210" stroke="#9ca3af" stroke-width="1.5" marker-end="url(#a40)"/>
+  <text x="150" y="232" font-family="sans-serif" font-size="10" fill="#374151">← 越分散：越像指数，弹性小</text>
+  <text x="430" y="232" font-family="sans-serif" font-size="10" fill="#374151">越集中：弹性大、风险大 →</text>
+  <!-- 配套提示 -->
+  <rect x="120" y="255" width="480" height="44" rx="8" fill="#fef3c7" stroke="#d97706" stroke-width="1.5"/>
+  <text x="360" y="274" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="bold" fill="#78350f">同时看"前 3 大行业占比"——宣称全市场却 60% 押白酒 = 风格漂移</text>
+  <text x="360" y="292" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#78350f">在季报"前十大重仓股"一页 3 分钟能查完</text>
+  <defs>
+    <marker id="a40" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 z" fill="#9ca3af"/>
+    </marker>
+  </defs>
+</svg>

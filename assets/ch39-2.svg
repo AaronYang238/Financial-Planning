@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" width="100%" style="max-width:720px;display:block;margin:1em auto;background:#fafafa;border-radius:8px">
+  <text x="360" y="28" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="bold" fill="#1f2937">蒙特卡洛：未来不是一个数，是一个分布</text>
+  <text x="360" y="48" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#6b7280">月投 5,000 · 年化 6% · 波动 15% · 30 年 · 模拟 1000 次</text>
+  <!-- 坐标 -->
+  <line x1="80" y1="310" x2="680" y2="310" stroke="#374151" stroke-width="2"/>
+  <line x1="80" y1="310" x2="80" y2="70" stroke="#374151" stroke-width="2"/>
+  <text x="390" y="340" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#374151">时间（30 年）→</text>
+  <text x="46" y="190" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#374151" transform="rotate(-90 46 190)">账户余额</text>
+  <!-- 扇形路径区（从一点张开） -->
+  <path d="M 80 310 Q 350 290, 600 250 L 600 95 Q 330 240, 80 310 Z" fill="#bfdbfe" fill-opacity="0.55"/>
+  <path d="M 80 310 Q 345 280, 600 225 L 600 130 Q 335 255, 80 310 Z" fill="#60a5fa" fill-opacity="0.5"/>
+  <!-- 中位线 -->
+  <path d="M 80 310 Q 340 268, 600 178" stroke="#1d4ed8" stroke-width="3" fill="none"/>
+  <!-- 分位标注 -->
+  <line x1="600" y1="95" x2="600" y2="250" stroke="#374151" stroke-width="1"/>
+  <circle cx="600" cy="95" r="4" fill="#16a34a"/>
+  <text x="612" y="99" font-family="sans-serif" font-size="11" font-weight="bold" fill="#14532d">90 分位 1050 万</text>
+  <circle cx="600" cy="130" r="4" fill="#65a30d"/>
+  <text x="612" y="134" font-family="sans-serif" font-size="11" fill="#3f6212">75 分位 710 万</text>
+  <circle cx="600" cy="178" r="5" fill="#1d4ed8"/>
+  <text x="612" y="182" font-family="sans-serif" font-size="12" font-weight="bold" fill="#1e3a8a">中位数 480 万</text>
+  <circle cx="600" cy="225" r="4" fill="#d97706"/>
+  <text x="612" y="229" font-family="sans-serif" font-size="11" font-weight="bold" fill="#78350f">25 分位 320 万</text>
+  <circle cx="600" cy="250" r="4" fill="#dc2626"/>
+  <text x="612" y="254" font-family="sans-serif" font-size="11" fill="#7f1d1d">10 分位 250 万</text>
+  <!-- 注解 -->
+  <text x="240" y="120" font-family="sans-serif" font-size="11" font-weight="bold" fill="#1f2937">同样的定投计划，</text>
+  <text x="240" y="138" font-family="sans-serif" font-size="11" font-weight="bold" fill="#1f2937">终点差 4 倍（250 万 ~ 1050 万）</text>
+  <text x="240" y="160" font-family="sans-serif" font-size="10" fill="#6b7280">差别全部来自"路径上的运气"</text>
+  <text x="360" y="368" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#444">启示：退休规划按 25 分位（保守值）做，而不是按中位数做</text>
+</svg>

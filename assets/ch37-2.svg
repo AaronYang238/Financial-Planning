@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" width="100%" style="max-width:720px;display:block;margin:1em auto;background:#fafafa;border-radius:8px">
+  <text x="360" y="28" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="bold" fill="#1f2937">4% 法则：一个会自己回血的水池</text>
+  <!-- 水池 -->
+  <rect x="80" y="90" width="280" height="180" rx="10" fill="#dbeafe" stroke="#2563eb" stroke-width="2.5"/>
+  <rect x="92" y="130" width="256" height="128" rx="6" fill="#93c5fd"/>
+  <text x="220" y="180" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="bold" fill="#1e3a8a">退休本金</text>
+  <text x="220" y="205" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="bold" fill="#1e3a8a">= 年支出 × 25</text>
+  <text x="220" y="230" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#1e3a8a">（例：年花 12 万 → 需 300 万）</text>
+  <!-- 流入：投资回报 -->
+  <path d="M 220 50 L 220 86" stroke="#16a34a" stroke-width="4" marker-end="url(#a37g)"/>
+  <text x="310" y="60" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="bold" fill="#14532d">每年流入：实际回报 ≈ 6%</text>
+  <text x="310" y="78" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#14532d">（50% 股 + 50% 债，扣通胀后）</text>
+  <!-- 流出：提取 -->
+  <path d="M 364 180 L 430 180" stroke="#dc2626" stroke-width="4" marker-end="url(#a37r)"/>
+  <text x="400" y="160" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="bold" fill="#991b1b">每年取 4%</text>
+  <!-- 生活 -->
+  <rect x="440" y="140" width="120" height="80" rx="8" fill="#fef3c7" stroke="#d97706" stroke-width="2"/>
+  <text x="500" y="175" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="bold" fill="#78350f">生活开销</text>
+  <text x="500" y="198" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#78350f">按通胀逐年调整</text>
+  <!-- 结论 -->
+  <text x="220" y="295" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="bold" fill="#1e3a8a">流入 6% &gt; 流出 4% → 本金大概率撑 30 年+</text>
+  <!-- 修正表 -->
+  <rect x="440" y="240" width="240 " height="100" rx="8" fill="#f3f4f6" stroke="#6b7280" stroke-width="1.5"/>
+  <text x="560" y="262" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="bold" fill="#374151">提取率修正</text>
+  <text x="455" y="283" font-family="sans-serif" font-size="10" fill="#374151">4% — 标准 30 年退休</text>
+  <text x="455" y="301" font-family="sans-serif" font-size="10" fill="#374151">3.5% — FIRE（退休 40-50 年）</text>
+  <text x="455" y="319" font-family="sans-serif" font-size="10" fill="#374151">3% — 极保守 / 长寿担忧</text>
+  <text x="455" y="337" font-family="sans-serif" font-size="10" fill="#dc2626">⚠ 头几年大跌（序列风险）最伤</text>
+  <defs>
+    <marker id="a37g" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 z" fill="#16a34a"/>
+    </marker>
+    <marker id="a37r" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 z" fill="#dc2626"/>
+    </marker>
+  </defs>
+</svg>
