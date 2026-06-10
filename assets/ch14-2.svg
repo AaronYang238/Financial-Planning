@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" width="100%" style="max-width:720px;display:block;margin:1em auto;background:#fafafa;border-radius:8px">
+  <text x="360" y="28" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="bold" fill="#1f2937">强赎机制：130 元是最关键的红线</text>
+  <!-- 时间轴 -->
+  <line x1="80" y1="200" x2="660" y2="200" stroke="#374151" stroke-width="2"/>
+  <text x="80" y="225" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#6b7280">起点</text>
+  <text x="240" y="225" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#6b7280">触发</text>
+  <text x="240" y="240" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#6b7280">15/30 天 ≥130%</text>
+  <text x="400" y="225" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#6b7280">公告</text>
+  <text x="560" y="225" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#6b7280">登记日</text>
+  <text x="560" y="240" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#6b7280">+30 天</text>
+  <text x="660" y="225" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#6b7280">赎回</text>
+  <!-- 灰色：满足条件 -->
+  <rect x="80" y="120" width="160" height="60" fill="#e5e7eb" stroke="#9ca3af" stroke-width="1.5"/>
+  <text x="160" y="148" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="bold" fill="#374151">满足强赎条件</text>
+  <text x="160" y="168" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#374151">正股累计涨幅 30%+</text>
+  <!-- 黄色：发行人公告 -->
+  <rect x="320" y="120" width="160" height="60" fill="#fef3c7" stroke="#d97706" stroke-width="1.5"/>
+  <text x="400" y="148" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="bold" fill="#78350f">发行人公告</text>
+  <text x="400" y="168" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#78350f">"决定提前赎回"</text>
+  <!-- 红色：登记期 -->
+  <rect x="480" y="120" width="160" height="60" fill="#fee2e2" stroke="#dc2626" stroke-width="1.5"/>
+  <text x="560" y="142" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="bold" fill="#991b1b">30 天登记期</text>
+  <text x="560" y="160" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#991b1b">你必须卖出 或 转股</text>
+  <text x="560" y="175" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#991b1b">否则 103 元强赎</text>
+  <!-- 下方决策树 -->
+  <text x="240" y="290" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="bold" fill="#14532d">选择 A：30 天内卖出</text>
+  <text x="240" y="310" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#14532d">按市价 130-180 元卖出</text>
+  <text x="240" y="325" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#14532d">→ 拿到当前市价 ✓</text>
+  <text x="480" y="290" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="bold" fill="#7c2d12">选择 B：转股</text>
+  <text x="480" y="310" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#7c2d12">换成股票，承担正股价</text>
+  <text x="480" y="325" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#7c2d12">→ 转后股价波动你扛</text>
+  <text x="360" y="355" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="bold" fill="#991b1b">不操作 = 自动被 103 元强赎 → 大额损失</text>
+  <!-- 箭头 -->
+  <path d="M 240 180 L 240 270" stroke="#374151" stroke-width="1.5" marker-end="url(#arr14a)"/>
+  <path d="M 480 180 L 480 270" stroke="#374151" stroke-width="1.5" marker-end="url(#arr14a)"/>
+  <defs>
+    <marker id="arr14a" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 z" fill="#374151"/>
+    </marker>
+  </defs>
+</svg>

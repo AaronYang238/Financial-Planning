@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 480" width="100%" style="max-width:720px;display:block;margin:1em auto;background:#fafafa;border-radius:8px">
+  <text x="360" y="28" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="bold" fill="#1f2937">标准普尔家庭资产象限图</text>
+  <text x="360" y="48" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#6b7280">把家庭资产分成四个账户，目标不同、风险不同</text>
+  <!-- 中线 -->
+  <line x1="360" y1="80" x2="360" y2="430" stroke="#9ca3af" stroke-dasharray="3,3"/>
+  <line x1="60" y1="255" x2="660" y2="255" stroke="#9ca3af" stroke-dasharray="3,3"/>
+  <!-- 左上：要花的钱 -->
+  <rect x="65" y="85" width="290" height="165" rx="8" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
+  <text x="210" y="115" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="bold" fill="#1e3a8a">① 要花的钱（日常）</text>
+  <text x="210" y="138" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#1e3a8a">3-6 个月生活费</text>
+  <text x="210" y="158" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#1e3a8a">建议占比：10%</text>
+  <line x1="100" y1="172" x2="320" y2="172" stroke="#2563eb" stroke-width="1"/>
+  <text x="210" y="192" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="bold" fill="#1e3a8a">放哪里：</text>
+  <text x="210" y="212" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#1e3a8a">活期、货币基金、余额宝</text>
+  <text x="210" y="232" text-anchor="middle" font-family="sans-serif" font-size="10" font-style="italic" fill="#1e3a8a">特点：随时可取，几乎零波动</text>
+  <!-- 右上：保命的钱 -->
+  <rect x="365" y="85" width="290" height="165" rx="8" fill="#fee2e2" stroke="#dc2626" stroke-width="2"/>
+  <text x="510" y="115" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="bold" fill="#991b1b">② 保命的钱（保险）</text>
+  <text x="510" y="138" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#991b1b">大病/意外的保障</text>
+  <text x="510" y="158" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#991b1b">建议占比：20%</text>
+  <line x1="400" y1="172" x2="620" y2="172" stroke="#dc2626" stroke-width="1"/>
+  <text x="510" y="192" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="bold" fill="#991b1b">放哪里：</text>
+  <text x="510" y="212" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#991b1b">医疗险、重疾险、意外险</text>
+  <text x="510" y="232" text-anchor="middle" font-family="sans-serif" font-size="10" font-style="italic" fill="#991b1b">特点：以小博大，转移风险</text>
+  <!-- 左下：生钱的钱 -->
+  <rect x="65" y="265" width="290" height="165" rx="8" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+  <text x="210" y="295" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="bold" fill="#14532d">③ 生钱的钱（投资）</text>
+  <text x="210" y="318" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#14532d">高风险换高收益</text>
+  <text x="210" y="338" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#14532d">建议占比：30%</text>
+  <line x1="100" y1="352" x2="320" y2="352" stroke="#16a34a" stroke-width="1"/>
+  <text x="210" y="372" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="bold" fill="#14532d">放哪里：</text>
+  <text x="210" y="392" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#14532d">股票基金、个股、REITs</text>
+  <text x="210" y="412" text-anchor="middle" font-family="sans-serif" font-size="10" font-style="italic" fill="#14532d">特点：高波动，长期复利</text>
+  <!-- 右下：保本升值 -->
+  <rect x="365" y="265" width="290" height="165" rx="8" fill="#fef3c7" stroke="#d97706" stroke-width="2"/>
+  <text x="510" y="295" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="bold" fill="#78350f">④ 保本升值（养老）</text>
+  <text x="510" y="318" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#78350f">长期稳健，跑赢通胀</text>
+  <text x="510" y="338" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#78350f">建议占比：40%</text>
+  <line x1="400" y1="352" x2="620" y2="352" stroke="#d97706" stroke-width="1"/>
+  <text x="510" y="372" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="bold" fill="#78350f">放哪里：</text>
+  <text x="510" y="392" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#78350f">国债、债基、年金险</text>
+  <text x="510" y="412" text-anchor="middle" font-family="sans-serif" font-size="10" font-style="italic" fill="#78350f">特点：低波动，稳步增值</text>
+  <text x="360" y="465" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#444">10% + 20% + 30% + 40% 是参考起点，需按你的实际情况调整</text>
+</svg>

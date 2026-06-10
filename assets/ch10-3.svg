@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" width="100%" style="max-width:720px;display:block;margin:1em auto;background:#fafafa;border-radius:8px">
+  <text x="360" y="28" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="bold" fill="#1f2937">国庆前做 1 天逆回购：享受 7 天利息</text>
+  <!-- 时间轴 -->
+  <line x1="60" y1="200" x2="680" y2="200" stroke="#374151" stroke-width="2"/>
+  <!-- 9 天刻度 -->
+  <g font-family="sans-serif" font-size="10" fill="#6b7280">
+    <line x1="100" y1="195" x2="100" y2="205" stroke="#6b7280"/>
+    <text x="100" y="220" text-anchor="middle">周二</text>
+    <text x="100" y="234" text-anchor="middle" font-size="9">9-30</text>
+    <line x1="180" y1="195" x2="180" y2="205" stroke="#6b7280"/>
+    <text x="180" y="220" text-anchor="middle">周三</text>
+    <text x="180" y="234" text-anchor="middle" font-size="9">10-1</text>
+    <line x1="260" y1="195" x2="260" y2="205" stroke="#6b7280"/>
+    <text x="260" y="220" text-anchor="middle">周四</text>
+    <text x="260" y="234" text-anchor="middle" font-size="9">10-2</text>
+    <line x1="340" y1="195" x2="340" y2="205" stroke="#6b7280"/>
+    <text x="340" y="220" text-anchor="middle">周五</text>
+    <text x="340" y="234" text-anchor="middle" font-size="9">10-3</text>
+    <line x1="420" y1="195" x2="420" y2="205" stroke="#6b7280"/>
+    <text x="420" y="220" text-anchor="middle">周六</text>
+    <text x="420" y="234" text-anchor="middle" font-size="9">10-4</text>
+    <line x1="500" y1="195" x2="500" y2="205" stroke="#6b7280"/>
+    <text x="500" y="220" text-anchor="middle">周日</text>
+    <text x="500" y="234" text-anchor="middle" font-size="9">10-5</text>
+    <line x1="580" y1="195" x2="580" y2="205" stroke="#6b7280"/>
+    <text x="580" y="220" text-anchor="middle">周一</text>
+    <text x="580" y="234" text-anchor="middle" font-size="9">10-6</text>
+    <line x1="660" y1="195" x2="660" y2="205" stroke="#6b7280"/>
+    <text x="660" y="220" text-anchor="middle">周二</text>
+    <text x="660" y="234" text-anchor="middle" font-size="9">10-7</text>
+  </g>
+  <!-- 国庆假期阴影 -->
+  <rect x="180" y="180" width="420" height="40" fill="#fef3c7" opacity="0.6"/>
+  <text x="390" y="170" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="bold" fill="#78350f">国庆假期</text>
+  <!-- 操作动作 -->
+  <text x="100" y="80" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="bold" fill="#16a34a">操作日</text>
+  <text x="100" y="98" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#16a34a">做 1 天逆回购</text>
+  <text x="100" y="112" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#16a34a">利率 6.8%</text>
+  <path d="M 100 120 L 100 195" stroke="#16a34a" stroke-width="2" marker-end="url(#greenArr10b)"/>
+  <!-- 计息天数标注 -->
+  <path d="M 100 130 L 660 130" stroke="#dc2626" stroke-width="3"/>
+  <path d="M 100 130 L 100 125" stroke="#dc2626" stroke-width="3"/>
+  <path d="M 660 130 L 660 125" stroke="#dc2626" stroke-width="3"/>
+  <text x="380" y="120" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="bold" fill="#dc2626">计息 7 天</text>
+  <!-- 到账动作 -->
+  <text x="660" y="80" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="bold" fill="#2563eb">到账日</text>
+  <text x="660" y="98" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#2563eb">本金 + 利息</text>
+  <text x="660" y="112" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#2563eb">≈ 391 元</text>
+  <path d="M 660 120 L 660 195" stroke="#2563eb" stroke-width="2" marker-end="url(#blueArr10b)"/>
+  <!-- 底部说明 -->
+  <text x="360" y="290" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="bold" fill="#1f2937">30 万 × 6.8% × 7 / 365 = 391 元</text>
+  <text x="360" y="315" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#444">关键：操作了"1 天逆回购"，但因为隔了节假日，实际计息 7 天</text>
+  <text x="360" y="340" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="bold" fill="#16a34a">同期货基只能赚 86 元 → 多赚 305 元，操作时间 30 秒</text>
+  <defs>
+    <marker id="greenArr10b" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 z" fill="#16a34a"/>
+    </marker>
+    <marker id="blueArr10b" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 z" fill="#2563eb"/>
+    </marker>
+  </defs>
+</svg>

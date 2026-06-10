@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" width="100%" style="max-width:720px;display:block;margin:1em auto;background:#fafafa;border-radius:8px">
+  <text x="360" y="28" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="bold" fill="#1f2937">货币基金资产穿透：你的钱实际买了什么</text>
+  <text x="360" y="48" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#6b7280">以一只 1000 亿规模的典型货基为例（占比为行业平均）</text>
+  <!-- 中心：货币基金 -->
+  <circle cx="360" cy="220" r="60" fill="#fef3c7" stroke="#d97706" stroke-width="3"/>
+  <text x="360" y="218" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="bold" fill="#78350f">货币基金</text>
+  <text x="360" y="236" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#78350f">1000 亿</text>
+  <!-- 同业存款 50% -->
+  <rect x="60" y="80" width="180" height="80" rx="6" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
+  <text x="150" y="105" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="bold" fill="#1e3a8a">银行同业存款</text>
+  <text x="150" y="125" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#1e3a8a">≈ 50%</text>
+  <text x="150" y="145" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#1e3a8a">利率 1.8-2.5%</text>
+  <path d="M 240 120 L 300 195" stroke="#2563eb" stroke-width="2" fill="none"/>
+  <!-- 同业存单 20% -->
+  <rect x="60" y="180" width="180" height="80" rx="6" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+  <text x="150" y="205" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="bold" fill="#14532d">银行同业存单</text>
+  <text x="150" y="225" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#14532d">≈ 20%</text>
+  <text x="150" y="245" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#14532d">期限 1-12 个月</text>
+  <path d="M 240 220 L 300 220" stroke="#16a34a" stroke-width="2" fill="none"/>
+  <!-- 国债/央票 15% -->
+  <rect x="60" y="280" width="180" height="80" rx="6" fill="#fed7aa" stroke="#ea580c" stroke-width="2"/>
+  <text x="150" y="305" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="bold" fill="#7c2d12">短期国债 / 央票</text>
+  <text x="150" y="325" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#7c2d12">≈ 15%</text>
+  <text x="150" y="345" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#7c2d12">最安全，但利率最低</text>
+  <path d="M 240 320 L 300 245" stroke="#ea580c" stroke-width="2" fill="none"/>
+  <!-- 政策性金融债 8% -->
+  <rect x="480" y="80" width="180" height="80" rx="6" fill="#ede9fe" stroke="#7c3aed" stroke-width="2"/>
+  <text x="570" y="105" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="bold" fill="#5b21b6">政策性金融债</text>
+  <text x="570" y="125" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#5b21b6">≈ 8%</text>
+  <text x="570" y="145" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#5b21b6">国开/进出口/农发</text>
+  <path d="M 480 120 L 420 195" stroke="#7c3aed" stroke-width="2" fill="none"/>
+  <!-- 逆回购 5% -->
+  <rect x="480" y="180" width="180" height="80" rx="6" fill="#fce7f3" stroke="#db2777" stroke-width="2"/>
+  <text x="570" y="205" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="bold" fill="#831843">国债逆回购</text>
+  <text x="570" y="225" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#831843">≈ 5%</text>
+  <text x="570" y="245" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#831843">超短期（1-7天）</text>
+  <path d="M 480 220 L 420 220" stroke="#db2777" stroke-width="2" fill="none"/>
+  <!-- 现金 2% -->
+  <rect x="480" y="280" width="180" height="80" rx="6" fill="#e5e7eb" stroke="#6b7280" stroke-width="2"/>
+  <text x="570" y="305" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="bold" fill="#374151">备付现金</text>
+  <text x="570" y="325" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#374151">≈ 2%</text>
+  <text x="570" y="345" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#374151">应付赎回</text>
+  <path d="M 480 320 L 420 245" stroke="#6b7280" stroke-width="2" fill="none"/>
+  <text x="360" y="400" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#444">90%+ 的钱在银行间市场（同业存款/存单/逆回购）—— 货基本质是"借给银行的钱"</text>
+</svg>

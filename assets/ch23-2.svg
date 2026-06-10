@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" width="100%" style="max-width:720px;display:block;margin:1em auto;background:#fafafa;border-radius:8px">
+  <text x="360" y="28" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="bold" fill="#1f2937">明星基金的均值回归路径（示意）</text>
+  <!-- 排名坐标轴 -->
+  <line x1="80" y1="80" x2="80" y2="320" stroke="#374151" stroke-width="2"/>
+  <line x1="80" y1="320" x2="680" y2="320" stroke="#374151" stroke-width="2"/>
+  <!-- Y 轴：排名分位 -->
+  <text x="70" y="85" text-anchor="end" font-family="sans-serif" font-size="10" fill="#6b7280">前 5%</text>
+  <text x="70" y="135" text-anchor="end" font-family="sans-serif" font-size="10" fill="#6b7280">前 25%</text>
+  <line x1="78" y1="130" x2="80" y2="130" stroke="#6b7280" stroke-width="1"/>
+  <text x="70" y="200" text-anchor="end" font-family="sans-serif" font-size="10" fill="#6b7280">中位数</text>
+  <line x1="78" y1="195" x2="80" y2="195" stroke="#6b7280" stroke-width="1"/>
+  <text x="70" y="265" text-anchor="end" font-family="sans-serif" font-size="10" fill="#6b7280">后 25%</text>
+  <line x1="78" y1="260" x2="80" y2="260" stroke="#6b7280" stroke-width="1"/>
+  <text x="70" y="320" text-anchor="end" font-family="sans-serif" font-size="10" fill="#6b7280">后 5%</text>
+  <text x="40" y="190" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="bold" fill="#374151" transform="rotate(-90 40 190)">业绩排名</text>
+  <!-- X 轴：年份 -->
+  <text x="380" y="350" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="bold" fill="#374151">年份</text>
+  <text x="120" y="335" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#6b7280">Y1（封神）</text>
+  <text x="240" y="335" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#6b7280">Y2</text>
+  <text x="360" y="335" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#6b7280">Y3</text>
+  <text x="480" y="335" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#6b7280">Y4</text>
+  <text x="600" y="335" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#6b7280">Y5</text>
+  <!-- 中位数线 -->
+  <line x1="80" y1="195" x2="680" y2="195" stroke="#9ca3af" stroke-width="1" stroke-dasharray="3,3"/>
+  <!-- 5 条明星基金的轨迹 -->
+  <!-- 1 -->
+  <path d="M 120 90 L 240 230 L 360 200 L 480 250 L 600 220" stroke="#dc2626" stroke-width="2" fill="none"/>
+  <circle cx="120" cy="90" r="5" fill="#dc2626"/>
+  <text x="125" y="78" font-family="sans-serif" font-size="9" fill="#991b1b">基金A：跌到 75%分位</text>
+  <!-- 2 -->
+  <path d="M 120 95 L 240 165 L 360 280 L 480 260 L 600 240" stroke="#ea580c" stroke-width="2" fill="none"/>
+  <circle cx="120" cy="95" r="5" fill="#ea580c"/>
+  <!-- 3 -->
+  <path d="M 120 100 L 240 200 L 360 175 L 480 195 L 600 180" stroke="#f59e0b" stroke-width="2" fill="none"/>
+  <circle cx="120" cy="100" r="5" fill="#f59e0b"/>
+  <!-- 4 -->
+  <path d="M 120 105 L 240 130 L 360 145 L 480 110 L 600 165" stroke="#16a34a" stroke-width="2" fill="none"/>
+  <circle cx="120" cy="105" r="5" fill="#16a34a"/>
+  <text x="600" y="160" font-family="sans-serif" font-size="9" fill="#14532d">基金D：能持续优秀（少数）</text>
+  <!-- 5 -->
+  <path d="M 120 110 L 240 175 L 360 220 L 480 240 L 600 270" stroke="#7c3aed" stroke-width="2" fill="none"/>
+  <circle cx="120" cy="110" r="5" fill="#7c3aed"/>
+  <!-- 标签 -->
+  <text x="120" y="65" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="bold" fill="#991b1b">5 只前 5% 基金</text>
+  <!-- 底部说明 -->
+  <line x1="80" y1="340" x2="680" y2="340" stroke="#9ca3af" stroke-width="0.5"/>
+  <text x="360" y="368" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#444">前 5% 的明星基金，5 年后多数回到中位数附近 —— 1/5 概率能持续</text>
+</svg>

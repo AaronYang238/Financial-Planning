@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" width="100%" style="max-width:720px;display:block;margin:1em auto;background:#fafafa;border-radius:8px">
+  <text x="360" y="28" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="bold" fill="#1f2937">风险承受能力雷达图：故事里的小李</text>
+  <!-- 五个轴的中心 -->
+  <g transform="translate(360, 220)">
+    <!-- 五角形网格 -->
+    <polygon points="0,-140 133,-43 82,113 -82,113 -133,-43" fill="none" stroke="#d1d5db" stroke-width="1"/>
+    <polygon points="0,-105 100,-32 62,85 -62,85 -100,-32" fill="none" stroke="#e5e7eb" stroke-width="1"/>
+    <polygon points="0,-70 67,-22 41,57 -41,57 -67,-22" fill="none" stroke="#e5e7eb" stroke-width="1"/>
+    <polygon points="0,-35 33,-11 21,28 -21,28 -33,-11" fill="none" stroke="#e5e7eb" stroke-width="1"/>
+    <!-- 轴线 -->
+    <line x1="0" y1="0" x2="0" y2="-140" stroke="#9ca3af" stroke-width="1"/>
+    <line x1="0" y1="0" x2="133" y2="-43" stroke="#9ca3af" stroke-width="1"/>
+    <line x1="0" y1="0" x2="82" y2="113" stroke="#9ca3af" stroke-width="1"/>
+    <line x1="0" y1="0" x2="-82" y2="113" stroke="#9ca3af" stroke-width="1"/>
+    <line x1="0" y1="0" x2="-133" y2="-43" stroke="#9ca3af" stroke-width="1"/>
+    <!-- 数据：年龄 2、收入 3、家庭 2、资产 2、职业 3 (满分 5) -->
+    <!-- 各方向坐标按比例 -->
+    <polygon points="0,-56 80,-26 33,45 -33,45 -80,-26" fill="#fca5a5" fill-opacity="0.5" stroke="#dc2626" stroke-width="2"/>
+    <!-- 数据点 -->
+    <circle cx="0" cy="-56" r="4" fill="#dc2626"/>
+    <circle cx="80" cy="-26" r="4" fill="#dc2626"/>
+    <circle cx="33" cy="45" r="4" fill="#dc2626"/>
+    <circle cx="-33" cy="45" r="4" fill="#dc2626"/>
+    <circle cx="-80" cy="-26" r="4" fill="#dc2626"/>
+    <!-- 轴标签 -->
+    <text x="0" y="-155" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="bold" fill="#1f2937">年龄</text>
+    <text x="0" y="-170" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#6b7280">(55岁，弱 2/5)</text>
+    <text x="150" y="-43" font-family="sans-serif" font-size="12" font-weight="bold" fill="#1f2937">收入稳定</text>
+    <text x="150" y="-28" font-family="sans-serif" font-size="10" fill="#6b7280">(中 3/5)</text>
+    <text x="92" y="130" font-family="sans-serif" font-size="12" font-weight="bold" fill="#1f2937">家庭</text>
+    <text x="92" y="145" font-family="sans-serif" font-size="10" fill="#6b7280">(老婆病 2/5)</text>
+    <text x="-92" y="130" text-anchor="end" font-family="sans-serif" font-size="12" font-weight="bold" fill="#1f2937">资产/负债</text>
+    <text x="-92" y="145" text-anchor="end" font-family="sans-serif" font-size="10" fill="#6b7280">(有房贷 2/5)</text>
+    <text x="-150" y="-43" text-anchor="end" font-family="sans-serif" font-size="12" font-weight="bold" fill="#1f2937">职业</text>
+    <text x="-150" y="-28" text-anchor="end" font-family="sans-serif" font-size="10" fill="#6b7280">(普通工 3/5)</text>
+  </g>
+  <text x="360" y="370" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#444">五维平均 2.4/5 → 应该配置低风险，但他选了高风险 → 灾难</text>
+</svg>

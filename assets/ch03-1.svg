@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 320" width="100%" style="max-width:720px;display:block;margin:1em auto;background:#fafafa;border-radius:8px">
+  <text x="360" y="28" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="bold" fill="#1f2937">账面赚 5%，购买力只多了 1.94%</text>
+  <!-- 今天 -->
+  <text x="120" y="80" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="bold" fill="#1f2937">今天</text>
+  <rect x="40" y="100" width="160" height="60" rx="6" fill="#fef3c7" stroke="#d97706" stroke-width="2"/>
+  <text x="120" y="125" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#78350f">100 元</text>
+  <text x="120" y="148" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#78350f">苹果 1 元/个</text>
+  <rect x="40" y="180" width="160" height="60" rx="6" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+  <text x="120" y="218" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="bold" fill="#15803d">= 100 个苹果</text>
+  <!-- 箭头 -->
+  <path d="M 230 195 L 290 195" stroke="#6b7280" stroke-width="2" marker-end="url(#grayArrow)"/>
+  <text x="260" y="183" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#6b7280">1 年</text>
+  <text x="260" y="215" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#6b7280">利息5% 通胀3%</text>
+  <defs>
+    <marker id="grayArrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 z" fill="#6b7280"/>
+    </marker>
+  </defs>
+  <!-- 一年后 -->
+  <text x="430" y="80" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="bold" fill="#1f2937">一年后</text>
+  <rect x="320" y="100" width="220" height="60" rx="6" fill="#fef3c7" stroke="#d97706" stroke-width="2"/>
+  <text x="430" y="125" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#78350f">105 元（+5%）</text>
+  <text x="430" y="148" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#78350f">苹果 1.03 元/个</text>
+  <rect x="320" y="180" width="220" height="60" rx="6" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+  <text x="430" y="218" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="bold" fill="#15803d">≈ 101.9 个苹果（+1.9%）</text>
+  <!-- 右侧总结 -->
+  <rect x="560" y="100" width="140" height="140" rx="6" fill="#fee2e2" stroke="#dc2626" stroke-width="2"/>
+  <text x="630" y="135" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="bold" fill="#991b1b">差别</text>
+  <text x="630" y="160" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#991b1b">账面：+5.00%</text>
+  <text x="630" y="180" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#991b1b">通胀：+3.00%</text>
+  <line x1="580" y1="190" x2="680" y2="190" stroke="#991b1b" stroke-width="1"/>
+  <text x="630" y="210" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="bold" fill="#991b1b">真赚：+1.94%</text>
+  <text x="630" y="230" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#991b1b">（不是 2%）</text>
+  <text x="360" y="290" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#444">你赚的不是钱，是"能买多少东西"</text>
+</svg>

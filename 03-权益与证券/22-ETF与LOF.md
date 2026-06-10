@@ -59,50 +59,7 @@
 
 ### 1.2 ETF 的三大特征
 
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" width="100%" style="max-width:720px;display:block;margin:1em auto;background:#fafafa;border-radius:8px">
-  <text x="360" y="28" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="bold" fill="#1f2937">ETF 的三大特征</text>
-  <!-- 中心 -->
-  <circle cx="360" cy="200" r="55" fill="#fef3c7" stroke="#d97706" stroke-width="3"/>
-  <text x="360" y="195" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="bold" fill="#78350f">ETF</text>
-  <text x="360" y="215" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#78350f">510300</text>
-  <!-- 特征 1：像股票一样交易 -->
-  <rect x="40" y="80" width="200" height="100" rx="10" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
-  <text x="140" y="105" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="bold" fill="#1e3a8a">① 像股票一样交易</text>
-  <line x1="55" y1="115" x2="225" y2="115" stroke="#2563eb" stroke-width="1"/>
-  <text x="140" y="135" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#1e3a8a">实时成交（T+0 或 T+1）</text>
-  <text x="140" y="153" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#1e3a8a">有买价 / 卖价 / 五档</text>
-  <text x="140" y="171" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#1e3a8a">需券商账户</text>
-  <path d="M 240 180 L 305 200" stroke="#2563eb" stroke-width="2" fill="none" marker-end="url(#arrETF1)"/>
-  <!-- 特征 2：管理费极低 -->
-  <rect x="480" y="80" width="200" height="100" rx="10" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
-  <text x="580" y="105" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="bold" fill="#14532d">② 管理费极低</text>
-  <line x1="495" y1="115" x2="665" y2="115" stroke="#16a34a" stroke-width="1"/>
-  <text x="580" y="135" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#14532d">宽基 ETF：0.15-0.5%</text>
-  <text x="580" y="153" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#14532d">普通指基：0.5-1.5%</text>
-  <text x="580" y="171" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#14532d">主动基：1.5-2%</text>
-  <path d="M 480 180 L 415 200" stroke="#16a34a" stroke-width="2" fill="none" marker-end="url(#arrETF1)"/>
-  <!-- 特征 3：实物申赎 -->
-  <rect x="40" y="240" width="200" height="100" rx="10" fill="#fee2e2" stroke="#dc2626" stroke-width="2"/>
-  <text x="140" y="265" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="bold" fill="#991b1b">③ 实物申赎</text>
-  <line x1="55" y1="275" x2="225" y2="275" stroke="#dc2626" stroke-width="1"/>
-  <text x="140" y="295" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#991b1b">一级：拿一篮子股票换</text>
-  <text x="140" y="313" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#991b1b">→ 申购 ETF 份额</text>
-  <text x="140" y="331" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#991b1b">（机构玩，散户在二级）</text>
-  <path d="M 240 280 L 305 230" stroke="#dc2626" stroke-width="2" fill="none" marker-end="url(#arrETF1)"/>
-  <!-- 总结 -->
-  <rect x="480" y="240" width="200" height="100" rx="10" fill="#ede9fe" stroke="#7c3aed" stroke-width="2"/>
-  <text x="580" y="265" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="bold" fill="#5b21b6">→ 综合效果</text>
-  <line x1="495" y1="275" x2="665" y2="275" stroke="#7c3aed" stroke-width="1"/>
-  <text x="580" y="295" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#5b21b6">跟踪误差 < 0.5%</text>
-  <text x="580" y="313" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#5b21b6">买卖灵活、成本低</text>
-  <text x="580" y="331" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#5b21b6">指数投资的"最佳载体"</text>
-  <path d="M 415 245 L 480 245" stroke="#7c3aed" stroke-width="2" fill="none" marker-end="url(#arrETF1)"/>
-  <defs>
-    <marker id="arrETF1" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
-      <path d="M0,0 L0,6 L9,3 z" fill="#374151"/>
-    </marker>
-  </defs>
-</svg>
+![ETF 的三大特征](../assets/ch22-1.svg)
 
 ### 1.3 ETF 的"两个价格"
 
@@ -205,46 +162,7 @@
 
 ### 3.4 申赎机制的图示
 
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" width="100%" style="max-width:720px;display:block;margin:1em auto;background:#fafafa;border-radius:8px">
-  <text x="360" y="28" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="bold" fill="#1f2937">ETF 一二级市场套利机制</text>
-  <!-- 场景：ETF 出现溢价（市价 > 净值） -->
-  <text x="360" y="55" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#991b1b">场景：ETF 市价 = 1.51 元；净值 = 1.50 元（溢价 0.67%）</text>
-  <!-- 机构 -->
-  <rect x="40" y="100" width="140" height="80" rx="10" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
-  <text x="110" y="125" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="bold" fill="#1e3a8a">套利机构</text>
-  <text x="110" y="150" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#1e3a8a">（券商/做市商）</text>
-  <text x="110" y="170" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#1e3a8a">"我嗅到溢价了"</text>
-  <!-- 一级市场：申购 -->
-  <rect x="290" y="100" width="160" height="80" rx="10" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
-  <text x="370" y="125" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="bold" fill="#14532d">一级市场</text>
-  <text x="370" y="148" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#14532d">机构买入一篮子股票</text>
-  <text x="370" y="163" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#14532d">→ 申购 ETF 份额</text>
-  <text x="370" y="176" text-anchor="middle" font-family="sans-serif" font-size="10" font-weight="bold" fill="#14532d">按净值 1.50 元</text>
-  <!-- 二级市场：卖出 -->
-  <rect x="560" y="100" width="140" height="80" rx="10" fill="#fee2e2" stroke="#dc2626" stroke-width="2"/>
-  <text x="630" y="125" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="bold" fill="#991b1b">二级市场</text>
-  <text x="630" y="148" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#991b1b">机构卖出 ETF 份额</text>
-  <text x="630" y="163" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#991b1b">→ 散户接盘</text>
-  <text x="630" y="176" text-anchor="middle" font-family="sans-serif" font-size="10" font-weight="bold" fill="#991b1b">按市价 1.51 元</text>
-  <!-- 箭头 -->
-  <path d="M 180 140 L 285 140" stroke="#374151" stroke-width="2" marker-end="url(#arrETF2)"/>
-  <text x="232" y="132" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#374151">① 现金</text>
-  <path d="M 450 140 L 555 140" stroke="#374151" stroke-width="2" marker-end="url(#arrETF2)"/>
-  <text x="502" y="132" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#374151">② ETF 份额</text>
-  <!-- 套利逻辑 -->
-  <rect x="100" y="220" width="520" height="80" rx="10" fill="#fef3c7" stroke="#d97706" stroke-width="2"/>
-  <text x="360" y="245" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="bold" fill="#78350f">机构套利结果（每份）</text>
-  <text x="360" y="268" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#78350f">买入成本（一级申购）1.50 元 → 卖出价（二级）1.51 元 → 赚 0.01 元/份</text>
-  <text x="360" y="285" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#78350f">这一买一卖，把市价压下来 → 溢价消失</text>
-  <!-- 结果 -->
-  <text x="360" y="335" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="bold" fill="#991b1b">机制效果：ETF 市价始终被"拉回"接近净值 → 折溢价通常 < ±0.5%</text>
-  <text x="360" y="365" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#444">这就是 ETF "公平定价"的根本机制——套利机构相当于"价格警察"</text>
-  <defs>
-    <marker id="arrETF2" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
-      <path d="M0,0 L0,6 L9,3 z" fill="#374151"/>
-    </marker>
-  </defs>
-</svg>
+![ETF 一二级市场套利机制](../assets/ch22-2.svg)
 
 **反过来——ETF 折价（市价 < 净值）**：
 1. 机构在**二级市场**买入折价 ETF

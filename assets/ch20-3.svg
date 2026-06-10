@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" width="100%" style="max-width:720px;display:block;margin:1em auto;background:#fafafa;border-radius:8px">
+  <text x="360" y="28" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="bold" fill="#1f2937">量价配合：四种组合的含义</text>
+  <!-- 涨+放量 -->
+  <rect x="40" y="60" width="160" height="130" rx="6" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+  <text x="120" y="85" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="bold" fill="#14532d">涨 + 放量</text>
+  <!-- 价格上箭头 -->
+  <path d="M 80 100 L 80 130" stroke="#dc2626" stroke-width="3"/>
+  <path d="M 73 108 L 80 100 L 87 108" stroke="#dc2626" stroke-width="3" fill="none"/>
+  <!-- 量上箭头 -->
+  <path d="M 160 100 L 160 130" stroke="#3b82f6" stroke-width="3"/>
+  <path d="M 153 108 L 160 100 L 167 108" stroke="#3b82f6" stroke-width="3" fill="none"/>
+  <text x="80" y="148" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#374151">价</text>
+  <text x="160" y="148" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#374151">量</text>
+  <text x="120" y="175" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="bold" fill="#14532d">✓ 真涨（继续）</text>
+  <!-- 涨+缩量 -->
+  <rect x="220" y="60" width="160" height="130" rx="6" fill="#fef3c7" stroke="#d97706" stroke-width="2"/>
+  <text x="300" y="85" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="bold" fill="#78350f">涨 + 缩量</text>
+  <path d="M 260 100 L 260 130" stroke="#dc2626" stroke-width="3"/>
+  <path d="M 253 108 L 260 100 L 267 108" stroke="#dc2626" stroke-width="3" fill="none"/>
+  <path d="M 340 105 L 340 130" stroke="#3b82f6" stroke-width="2"/>
+  <path d="M 335 113 L 340 130 L 345 113" stroke="#3b82f6" stroke-width="2" fill="none"/>
+  <text x="260" y="148" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#374151">价</text>
+  <text x="340" y="148" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#374151">量</text>
+  <text x="300" y="175" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="bold" fill="#78350f">⚠️ 警惕（虚涨）</text>
+  <!-- 跌+缩量 -->
+  <rect x="40" y="210" width="160" height="130" rx="6" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
+  <text x="120" y="235" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="bold" fill="#1e3a8a">跌 + 缩量</text>
+  <path d="M 80 250 L 80 280" stroke="#16a34a" stroke-width="3"/>
+  <path d="M 73 272 L 80 280 L 87 272" stroke="#16a34a" stroke-width="3" fill="none"/>
+  <path d="M 160 255 L 160 280" stroke="#3b82f6" stroke-width="2"/>
+  <path d="M 155 263 L 160 280 L 165 263" stroke="#3b82f6" stroke-width="2" fill="none"/>
+  <text x="80" y="298" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#374151">价</text>
+  <text x="160" y="298" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#374151">量</text>
+  <text x="120" y="325" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="bold" fill="#1e3a8a">✓ 正常调整</text>
+  <!-- 跌+放量 -->
+  <rect x="220" y="210" width="160" height="130" rx="6" fill="#fee2e2" stroke="#dc2626" stroke-width="2"/>
+  <text x="300" y="235" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="bold" fill="#991b1b">跌 + 放量</text>
+  <path d="M 260 250 L 260 280" stroke="#16a34a" stroke-width="3"/>
+  <path d="M 253 272 L 260 280 L 267 272" stroke="#16a34a" stroke-width="3" fill="none"/>
+  <path d="M 340 250 L 340 280" stroke="#3b82f6" stroke-width="3"/>
+  <path d="M 333 258 L 340 250 L 347 258" stroke="#3b82f6" stroke-width="3" fill="none"/>
+  <text x="260" y="298" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#374151">价</text>
+  <text x="340" y="298" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#374151">量</text>
+  <text x="300" y="325" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="bold" fill="#991b1b">❌ 恐慌（避险）</text>
+  <!-- 总结 -->
+  <rect x="420" y="80" width="260" height="240" rx="10" fill="#f3f4f6" stroke="#6b7280" stroke-width="2"/>
+  <text x="550" y="110" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="bold" fill="#1f2937">两条铁律</text>
+  <line x1="440" y1="125" x2="660" y2="125" stroke="#6b7280" stroke-width="1"/>
+  <text x="430" y="160" font-family="sans-serif" font-size="12" font-weight="bold" fill="#15803d">① 上涨要放量</text>
+  <text x="430" y="180" font-family="sans-serif" font-size="11" fill="#374151">没量的涨不可信</text>
+  <text x="430" y="200" font-family="sans-serif" font-size="11" fill="#374151">→ "上涨乏力"</text>
+  <text x="430" y="240" font-family="sans-serif" font-size="12" font-weight="bold" fill="#1e3a8a">② 下跌可缩量</text>
+  <text x="430" y="260" font-family="sans-serif" font-size="11" fill="#374151">缩量跌是正常</text>
+  <text x="430" y="280" font-family="sans-serif" font-size="11" fill="#374151">放量跌才是恐慌</text>
+  <text x="430" y="307" font-family="sans-serif" font-size="10" font-style="italic" fill="#6b7280">"地量见地价"</text>
+</svg>

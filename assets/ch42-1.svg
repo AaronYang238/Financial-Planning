@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" width="100%" style="max-width:720px;display:block;margin:1em auto;background:#fafafa;border-radius:8px">
+  <text x="360" y="28" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="bold" fill="#1f2937">投资记录系统：4 大维度</text>
+  <!-- 交易流水 -->
+  <rect x="40" y="60" width="320" height="155" rx="10" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+  <text x="200" y="90" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="bold" fill="#14532d">① 交易流水（事实层）</text>
+  <line x1="55" y1="100" x2="345" y2="100" stroke="#16a34a" stroke-width="1"/>
+  <text x="60" y="125" font-family="sans-serif" font-size="11" fill="#14532d">📅 每笔买入 / 卖出 / 分红</text>
+  <text x="60" y="145" font-family="sans-serif" font-size="11" fill="#14532d">💰 金额 / 价格 / 份额</text>
+  <text x="60" y="165" font-family="sans-serif" font-size="11" fill="#14532d">📝 操作的"理由"（1 句话）</text>
+  <text x="60" y="195" font-family="sans-serif" font-size="10" font-style="italic" fill="#14532d">→ 算 XIRR 的基础</text>
+  <!-- 持仓快照 -->
+  <rect x="380" y="60" width="320" height="155" rx="10" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
+  <text x="540" y="90" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="bold" fill="#1e3a8a">② 持仓快照（状态层）</text>
+  <line x1="395" y1="100" x2="685" y2="100" stroke="#2563eb" stroke-width="1"/>
+  <text x="400" y="125" font-family="sans-serif" font-size="11" fill="#1e3a8a">📊 每月 1 次总资产汇总</text>
+  <text x="400" y="145" font-family="sans-serif" font-size="11" fill="#1e3a8a">📈 资产配置占比</text>
+  <text x="400" y="165" font-family="sans-serif" font-size="11" fill="#1e3a8a">💼 净资产变化</text>
+  <text x="400" y="195" font-family="sans-serif" font-size="10" font-style="italic" fill="#1e3a8a">→ 触发再平衡的依据</text>
+  <!-- 投资笔记 -->
+  <rect x="40" y="235" width="320" height="155" rx="10" fill="#fef3c7" stroke="#d97706" stroke-width="2"/>
+  <text x="200" y="265" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="bold" fill="#78350f">③ 投资笔记（思考层）</text>
+  <line x1="55" y1="275" x2="345" y2="275" stroke="#d97706" stroke-width="1"/>
+  <text x="60" y="300" font-family="sans-serif" font-size="11" fill="#78350f">💭 当前市场判断</text>
+  <text x="60" y="320" font-family="sans-serif" font-size="11" fill="#78350f">🤔 想做的操作 + 为什么</text>
+  <text x="60" y="340" font-family="sans-serif" font-size="11" fill="#78350f">📚 读到的关键观点</text>
+  <text x="60" y="370" font-family="sans-serif" font-size="10" font-style="italic" fill="#78350f">→ 5 年后能看清自己的认知演变</text>
+  <!-- 复盘记录 -->
+  <rect x="380" y="235" width="320" height="155" rx="10" fill="#fee2e2" stroke="#dc2626" stroke-width="2"/>
+  <text x="540" y="265" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="bold" fill="#991b1b">④ 复盘记录（学习层）</text>
+  <line x1="395" y1="275" x2="685" y2="275" stroke="#dc2626" stroke-width="1"/>
+  <text x="400" y="300" font-family="sans-serif" font-size="11" fill="#991b1b">📝 季度 / 年度复盘</text>
+  <text x="400" y="320" font-family="sans-serif" font-size="11" fill="#991b1b">✅ 做对了什么</text>
+  <text x="400" y="340" font-family="sans-serif" font-size="11" fill="#991b1b">❌ 错在哪 / 下次怎么改</text>
+  <text x="400" y="370" font-family="sans-serif" font-size="10" font-style="italic" fill="#991b1b">→ 自己是自己最好的老师</text>
+</svg>

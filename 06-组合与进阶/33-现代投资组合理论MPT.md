@@ -59,46 +59,7 @@
 
 ### 1.2 分散化的"边际效用递减"
 
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" width="100%" style="max-width:720px;display:block;margin:1em auto;background:#fafafa;border-radius:8px">
-  <text x="360" y="28" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="bold" fill="#1f2937">分散化效应：持股数量 vs 组合波动率</text>
-  <text x="360" y="48" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#6b7280">系统性风险无法分散，非系统性风险可大幅降低</text>
-  <!-- 坐标轴 -->
-  <line x1="80" y1="290" x2="680" y2="290" stroke="#374151" stroke-width="2"/>
-  <line x1="80" y1="80" x2="80" y2="290" stroke="#374151" stroke-width="2"/>
-  <!-- Y 轴 -->
-  <text x="70" y="294" text-anchor="end" font-family="sans-serif" font-size="10" fill="#6b7280">15%</text>
-  <text x="70" y="240" text-anchor="end" font-family="sans-serif" font-size="10" fill="#6b7280">25%</text>
-  <line x1="78" y1="235" x2="80" y2="235" stroke="#6b7280" stroke-width="1"/>
-  <text x="70" y="180" text-anchor="end" font-family="sans-serif" font-size="10" fill="#6b7280">35%</text>
-  <line x1="78" y1="175" x2="80" y2="175" stroke="#6b7280" stroke-width="1"/>
-  <text x="70" y="120" text-anchor="end" font-family="sans-serif" font-size="10" fill="#6b7280">50%</text>
-  <line x1="78" y1="115" x2="80" y2="115" stroke="#6b7280" stroke-width="1"/>
-  <text x="40" y="185" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="bold" fill="#374151" transform="rotate(-90 40 185)">组合波动率</text>
-  <!-- X 轴 -->
-  <text x="380" y="318" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="bold" fill="#374151">持股数量</text>
-  <text x="120" y="305" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#6b7280">1</text>
-  <text x="180" y="305" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#6b7280">5</text>
-  <text x="260" y="305" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#6b7280">10</text>
-  <text x="380" y="305" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#6b7280">20</text>
-  <text x="500" y="305" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#6b7280">50</text>
-  <text x="620" y="305" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#6b7280">100+</text>
-  <!-- 系统性风险水平线 -->
-  <line x1="80" y1="240" x2="680" y2="240" stroke="#16a34a" stroke-width="1.5" stroke-dasharray="3,3"/>
-  <text x="685" y="244" font-family="sans-serif" font-size="10" font-weight="bold" fill="#16a34a">系统性风险</text>
-  <!-- 总风险曲线（衰减） -->
-  <path d="M 120 100 Q 180 130 260 170 Q 380 220 500 235 Q 620 240 670 241" stroke="#dc2626" stroke-width="3" fill="none"/>
-  <!-- 标记区域 -->
-  <text x="200" y="105" font-family="sans-serif" font-size="11" font-weight="bold" fill="#991b1b">单股波动 ~50%</text>
-  <text x="380" y="175" font-family="sans-serif" font-size="10" fill="#dc2626">非系统性快速降低</text>
-  <text x="550" y="225" font-family="sans-serif" font-size="10" fill="#16a34a">收敛于系统性风险（~25%）</text>
-  <!-- 标注关键点 -->
-  <circle cx="120" cy="100" r="5" fill="#dc2626"/>
-  <circle cx="260" cy="170" r="5" fill="#f59e0b"/>
-  <text x="265" y="158" font-family="sans-serif" font-size="9" fill="#78350f">10 只可降到 32%</text>
-  <circle cx="500" cy="235" r="5" fill="#16a34a"/>
-  <text x="505" y="223" font-family="sans-serif" font-size="9" fill="#14532d">50 只≈系统风险</text>
-  <text x="360" y="345" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#444">分散效应有边际递减——20 只覆盖 80%+ 收益，再多边际很小</text>
-</svg>
+![分散化效应：持股数量 vs 组合波动率](../assets/ch33-1.svg)
 
 ### 1.3 几个关键观察
 
@@ -182,76 +143,7 @@ $$
 
 把所有可能的"两资产组合"画在**风险（横轴）+ 收益（纵轴）**坐标上：
 
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" width="100%" style="max-width:720px;display:block;margin:1em auto;background:#fafafa;border-radius:8px">
-  <text x="360" y="28" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="bold" fill="#1f2937">有效前沿：所有可能组合 vs 最优解</text>
-  <!-- 坐标轴 -->
-  <line x1="80" y1="320" x2="680" y2="320" stroke="#374151" stroke-width="2"/>
-  <line x1="80" y1="60" x2="80" y2="320" stroke="#374151" stroke-width="2"/>
-  <!-- Y 轴 -->
-  <text x="70" y="324" text-anchor="end" font-family="sans-serif" font-size="10" fill="#6b7280">2%</text>
-  <text x="70" y="265" text-anchor="end" font-family="sans-serif" font-size="10" fill="#6b7280">5%</text>
-  <line x1="78" y1="260" x2="80" y2="260" stroke="#6b7280"/>
-  <text x="70" y="205" text-anchor="end" font-family="sans-serif" font-size="10" fill="#6b7280">8%</text>
-  <line x1="78" y1="200" x2="80" y2="200" stroke="#6b7280"/>
-  <text x="70" y="145" text-anchor="end" font-family="sans-serif" font-size="10" fill="#6b7280">11%</text>
-  <line x1="78" y1="140" x2="80" y2="140" stroke="#6b7280"/>
-  <text x="70" y="85" text-anchor="end" font-family="sans-serif" font-size="10" fill="#6b7280">14%</text>
-  <line x1="78" y1="80" x2="80" y2="80" stroke="#6b7280"/>
-  <text x="40" y="190" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="bold" fill="#374151" transform="rotate(-90 40 190)">预期收益</text>
-  <!-- X 轴 -->
-  <text x="380" y="350" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="bold" fill="#374151">风险（波动率）</text>
-  <text x="180" y="335" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#6b7280">5%</text>
-  <text x="320" y="335" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#6b7280">15%</text>
-  <text x="460" y="335" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#6b7280">22%</text>
-  <text x="600" y="335" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#6b7280">30%</text>
-  <!-- 散点：可行组合 -->
-  <g fill="#9ca3af">
-    <circle cx="180" cy="290" r="3"/>
-    <circle cx="220" cy="270" r="3"/>
-    <circle cx="200" cy="280" r="3"/>
-    <circle cx="240" cy="260" r="3"/>
-    <circle cx="260" cy="240" r="3"/>
-    <circle cx="220" cy="245" r="3"/>
-    <circle cx="280" cy="220" r="3"/>
-    <circle cx="300" cy="210" r="3"/>
-    <circle cx="330" cy="190" r="3"/>
-    <circle cx="350" cy="170" r="3"/>
-    <circle cx="380" cy="180" r="3"/>
-    <circle cx="400" cy="160" r="3"/>
-    <circle cx="420" cy="155" r="3"/>
-    <circle cx="450" cy="140" r="3"/>
-    <circle cx="480" cy="130" r="3"/>
-    <circle cx="500" cy="135" r="3"/>
-    <circle cx="540" cy="115" r="3"/>
-    <circle cx="580" cy="105" r="3"/>
-    <circle cx="450" cy="180" r="3"/>
-    <circle cx="500" cy="170" r="3"/>
-    <circle cx="550" cy="155" r="3"/>
-    <circle cx="600" cy="140" r="3"/>
-    <circle cx="630" cy="120" r="3"/>
-    <circle cx="400" cy="225" r="3"/>
-    <circle cx="500" cy="225" r="3"/>
-  </g>
-  <!-- 有效前沿曲线 -->
-  <path d="M 180 290 Q 230 250 300 220 Q 380 170 480 130 Q 580 100 640 85" stroke="#16a34a" stroke-width="3" fill="none"/>
-  <text x="500" y="100" font-family="sans-serif" font-size="11" font-weight="bold" fill="#14532d">有效前沿</text>
-  <text x="500" y="116" font-family="sans-serif" font-size="9" font-style="italic" fill="#14532d">边界上的组合都最优</text>
-  <!-- 关键点：最小方差组合 -->
-  <circle cx="180" cy="290" r="6" fill="#2563eb" stroke="white" stroke-width="2"/>
-  <text x="120" y="280" font-family="sans-serif" font-size="10" font-weight="bold" fill="#1e3a8a">最小方差</text>
-  <text x="120" y="295" font-family="sans-serif" font-size="9" fill="#1e3a8a">100% 债</text>
-  <!-- 关键点：高收益组合 -->
-  <circle cx="640" cy="85" r="6" fill="#dc2626" stroke="white" stroke-width="2"/>
-  <text x="555" y="75" font-family="sans-serif" font-size="10" font-weight="bold" fill="#991b1b">最高收益</text>
-  <text x="555" y="65" font-family="sans-serif" font-size="9" fill="#991b1b">100% 股</text>
-  <!-- 60/40 组合 -->
-  <circle cx="380" cy="180" r="6" fill="#d97706" stroke="white" stroke-width="2"/>
-  <text x="385" y="175" font-family="sans-serif" font-size="10" font-weight="bold" fill="#78350f">60/40 经典</text>
-  <text x="385" y="190" font-family="sans-serif" font-size="9" fill="#78350f">股 60 + 债 40</text>
-  <!-- 低效区域 -->
-  <text x="500" y="225" font-family="sans-serif" font-size="10" fill="#9ca3af">同样风险</text>
-  <text x="500" y="237" font-family="sans-serif" font-size="10" fill="#9ca3af">但收益低 → 低效</text>
-</svg>
+![有效前沿：所有可能组合 vs 最优解](../assets/ch33-2.svg)
 
 ### 3.2 三个关键点
 

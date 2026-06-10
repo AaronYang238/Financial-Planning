@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" width="100%" style="max-width:720px;display:block;margin:1em auto;background:#fafafa;border-radius:8px">
+  <text x="360" y="28" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="bold" fill="#1f2937">应急金三阶梯：流动性递减、收益递增</text>
+  <!-- 阶梯 1 -->
+  <rect x="60" y="80" width="180" height="280" rx="8" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
+  <text x="150" y="110" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="bold" fill="#1e3a8a">第一档</text>
+  <text x="150" y="130" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#1e3a8a">"今晚就要用"</text>
+  <line x1="80" y1="145" x2="220" y2="145" stroke="#2563eb" stroke-width="1"/>
+  <text x="150" y="170" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#1e3a8a">占比：1-1.5 个月</text>
+  <text x="150" y="190" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#1e3a8a">放：余额宝/活期</text>
+  <text x="150" y="210" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#1e3a8a">取现：T+0</text>
+  <text x="150" y="230" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#1e3a8a">额度：≤ 1 万/日</text>
+  <text x="150" y="265" text-anchor="middle" font-family="sans-serif" font-size="10" font-style="italic" fill="#1e3a8a">7日年化≈1.5%</text>
+  <text x="150" y="310" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="bold" fill="#1e3a8a">应对：临时缺钱</text>
+  <text x="150" y="328" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#1e3a8a">买药/打车/聚餐</text>
+  <!-- 阶梯 2 -->
+  <rect x="270" y="120" width="180" height="240" rx="8" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+  <text x="360" y="150" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="bold" fill="#14532d">第二档</text>
+  <text x="360" y="170" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#14532d">"一周内要用"</text>
+  <line x1="290" y1="185" x2="430" y2="185" stroke="#16a34a" stroke-width="1"/>
+  <text x="360" y="210" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#14532d">占比：3-4 个月</text>
+  <text x="360" y="230" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#14532d">放：货基/T+0理财</text>
+  <text x="360" y="250" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#14532d">取现：T+0/T+1</text>
+  <text x="360" y="270" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#14532d">无额度限制</text>
+  <text x="360" y="295" text-anchor="middle" font-family="sans-serif" font-size="10" font-style="italic" fill="#14532d">7日年化≈1.8%</text>
+  <text x="360" y="328" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="bold" fill="#14532d">应对：主力</text>
+  <!-- 阶梯 3 -->
+  <rect x="480" y="160" width="180" height="200" rx="8" fill="#fef3c7" stroke="#d97706" stroke-width="2"/>
+  <text x="570" y="190" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="bold" fill="#78350f">第三档</text>
+  <text x="570" y="210" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#78350f">"一个月内要用"</text>
+  <line x1="500" y1="225" x2="640" y2="225" stroke="#d97706" stroke-width="1"/>
+  <text x="570" y="250" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#78350f">占比：2-3 个月</text>
+  <text x="570" y="270" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#78350f">放：短期债基</text>
+  <text x="570" y="290" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#78350f">取现：T+2</text>
+  <text x="570" y="310" text-anchor="middle" font-family="sans-serif" font-size="10" font-style="italic" fill="#78350f">年化≈2.5-3%</text>
+  <text x="570" y="335" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="bold" fill="#78350f">应对：备用</text>
+  <text x="360" y="395" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#444">大头放第二档（货基），少量在第一档（应急中的应急），少量在第三档（追求收益）</text>
+</svg>

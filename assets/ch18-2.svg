@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" width="100%" style="max-width:720px;display:block;margin:1em auto;background:#fafafa;border-radius:8px">
+  <text x="360" y="28" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="bold" fill="#1f2937">五大估值指标：什么时候用哪个</text>
+  <!-- 表头 -->
+  <text x="100" y="70" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="bold" fill="#1f2937">指标</text>
+  <text x="240" y="70" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="bold" fill="#1f2937">问的是</text>
+  <text x="400" y="70" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="bold" fill="#1f2937">最佳场景</text>
+  <text x="580" y="70" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="bold" fill="#1f2937">坑</text>
+  <line x1="40" y1="82" x2="680" y2="82" stroke="#374151" stroke-width="1"/>
+  <!-- PE -->
+  <text x="100" y="110" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="bold" fill="#dc2626">PE</text>
+  <text x="240" y="110" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#1f2937">几年回本</text>
+  <text x="400" y="110" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#1f2937">稳定盈利公司</text>
+  <text x="580" y="110" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#6b7280">行业差异大</text>
+  <!-- PB -->
+  <text x="100" y="155" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="bold" fill="#2563eb">PB</text>
+  <text x="240" y="155" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#1f2937">几倍账面身家</text>
+  <text x="400" y="155" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#1f2937">银行/周期股</text>
+  <text x="580" y="155" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#6b7280">不适合轻资产</text>
+  <!-- PEG -->
+  <text x="100" y="200" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="bold" fill="#d97706">PEG</text>
+  <text x="240" y="200" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#1f2937">PE 配不配增速</text>
+  <text x="400" y="200" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#1f2937">成长股</text>
+  <text x="580" y="200" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#6b7280">预测不准就废</text>
+  <!-- 股息率 -->
+  <text x="100" y="245" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="bold" fill="#16a34a">股息率</text>
+  <text x="240" y="245" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#1f2937">类债券利率</text>
+  <text x="400" y="245" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#1f2937">高分红蓝筹</text>
+  <text x="580" y="245" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#6b7280">分红可能停</text>
+  <!-- ROE -->
+  <text x="100" y="290" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="bold" fill="#7c3aed">ROE</text>
+  <text x="240" y="290" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#1f2937">公司赚钱效率</text>
+  <text x="400" y="290" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#1f2937">所有公司</text>
+  <text x="580" y="290" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#6b7280">单年高不算数</text>
+  <line x1="40" y1="310" x2="680" y2="310" stroke="#374151" stroke-width="1"/>
+  <text x="360" y="340" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="bold" fill="#1f2937">五个指标要"组合用"，不能只看一个</text>
+  <text x="360" y="360" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#444">推荐套餐：PE + PB + ROE + 历史百分位</text>
+</svg>

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" width="100%" style="max-width:720px;display:block;margin:1em auto;background:#fafafa;border-radius:8px">
+  <text x="360" y="28" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="bold" fill="#1f2937">期货 vs 期权（买方）：四个关键差异</text>
+  <!-- 左：期货 -->
+  <rect x="40" y="60" width="320" height="280" rx="10" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+  <text x="200" y="90" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="bold" fill="#14532d">期货（多头）</text>
+  <line x1="55" y1="100" x2="345" y2="100" stroke="#16a34a" stroke-width="1"/>
+  <text x="60" y="130" font-family="sans-serif" font-size="11" font-weight="bold" fill="#14532d">① 损益：线性对称</text>
+  <text x="60" y="150" font-family="sans-serif" font-size="10" fill="#14532d">涨跌同等放大（10 倍杠杆）</text>
+  <text x="60" y="180" font-family="sans-serif" font-size="11" font-weight="bold" fill="#14532d">② 时间：中性</text>
+  <text x="60" y="200" font-family="sans-serif" font-size="10" fill="#14532d">每月有微小移仓成本</text>
+  <text x="60" y="230" font-family="sans-serif" font-size="11" font-weight="bold" fill="#14532d">③ 风险：理论无限</text>
+  <text x="60" y="250" font-family="sans-serif" font-size="10" fill="#14532d">大跌会爆仓 + 倒欠</text>
+  <text x="60" y="280" font-family="sans-serif" font-size="11" font-weight="bold" fill="#14532d">④ 适合：短期方向判断</text>
+  <text x="60" y="300" font-family="sans-serif" font-size="10" fill="#14532d">能看清未来 1-3 个月走势</text>
+  <text x="200" y="330" text-anchor="middle" font-family="sans-serif" font-size="10" font-style="italic" fill="#14532d">"和股票相似，但加了 10 倍杠杆"</text>
+  <!-- 右：期权 -->
+  <rect x="380" y="60" width="320" height="280" rx="10" fill="#fef3c7" stroke="#d97706" stroke-width="2"/>
+  <text x="540" y="90" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="bold" fill="#78350f">期权（买方）</text>
+  <line x1="395" y1="100" x2="685" y2="100" stroke="#d97706" stroke-width="1"/>
+  <text x="400" y="130" font-family="sans-serif" font-size="11" font-weight="bold" fill="#78350f">① 损益：非对称（hockey stick）</text>
+  <text x="400" y="150" font-family="sans-serif" font-size="10" fill="#78350f">下亏限于权利金，上不限</text>
+  <text x="400" y="180" font-family="sans-serif" font-size="11" font-weight="bold" fill="#78350f">② 时间：负面（敌人）</text>
+  <text x="400" y="200" font-family="sans-serif" font-size="10" fill="#78350f">每天衰减，到期归零</text>
+  <text x="400" y="230" font-family="sans-serif" font-size="11" font-weight="bold" fill="#78350f">③ 风险：限于权利金</text>
+  <text x="400" y="250" font-family="sans-serif" font-size="10" fill="#78350f">最坏全亏，不倒欠</text>
+  <text x="400" y="280" font-family="sans-serif" font-size="11" font-weight="bold" fill="#78350f">④ 适合：方向 + 时点判断</text>
+  <text x="400" y="300" font-family="sans-serif" font-size="10" fill="#78350f">必须 X 时间内涨到 Y 价</text>
+  <text x="540" y="330" text-anchor="middle" font-family="sans-serif" font-size="10" font-style="italic" fill="#78350f">"看错亏小，看对赚多，但时间不站你这边"</text>
+</svg>

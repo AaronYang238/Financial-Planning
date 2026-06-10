@@ -1,0 +1,142 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 320" width="100%" style="max-width:720px;display:block;margin:1em auto;background:#fafafa;border-radius:8px">
+  <text x="360" y="28" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="bold" fill="#1f2937">PE 的本质：几年的盈利能回本</text>
+  <!-- PE = 10 -->
+  <text x="140" y="70" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="bold" fill="#16a34a">PE = 10</text>
+  <text x="140" y="88" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#14532d">10 年回本</text>
+  <rect x="60" y="105" width="160" height="160" rx="6" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+  <!-- 10 个小方块 -->
+  <g fill="#16a34a">
+    <rect x="75" y="120" width="22" height="22"/>
+    <rect x="105" y="120" width="22" height="22"/>
+    <rect x="135" y="120" width="22" height="22"/>
+    <rect x="165" y="120" width="22" height="22"/>
+    <rect x="195" y="120" width="22" height="22" opacity="0.6"/>
+    <rect x="75" y="150" width="22" height="22"/>
+    <rect x="105" y="150" width="22" height="22"/>
+    <rect x="135" y="150" width="22" height="22"/>
+    <rect x="165" y="150" width="22" height="22"/>
+    <rect x="195" y="150" width="22" height="22" opacity="0.6"/>
+  </g>
+  <text x="140" y="200" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#14532d">10 年盈利</text>
+  <text x="140" y="240" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="bold" fill="#14532d">"便宜"</text>
+  <text x="140" y="288" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#6b7280">银行、地产、传统行业</text>
+  <!-- PE = 25 -->
+  <text x="360" y="70" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="bold" fill="#d97706">PE = 25</text>
+  <text x="360" y="88" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#78350f">25 年回本</text>
+  <rect x="280" y="105" width="160" height="160" rx="6" fill="#fef3c7" stroke="#d97706" stroke-width="2"/>
+  <g fill="#d97706">
+    <rect x="290" y="115" width="14" height="14"/>
+    <rect x="310" y="115" width="14" height="14"/>
+    <rect x="330" y="115" width="14" height="14"/>
+    <rect x="350" y="115" width="14" height="14"/>
+    <rect x="370" y="115" width="14" height="14"/>
+    <rect x="290" y="135" width="14" height="14"/>
+    <rect x="310" y="135" width="14" height="14"/>
+    <rect x="330" y="135" width="14" height="14"/>
+    <rect x="350" y="135" width="14" height="14"/>
+    <rect x="370" y="135" width="14" height="14"/>
+    <rect x="290" y="155" width="14" height="14"/>
+    <rect x="310" y="155" width="14" height="14"/>
+    <rect x="330" y="155" width="14" height="14"/>
+    <rect x="350" y="155" width="14" height="14"/>
+    <rect x="370" y="155" width="14" height="14"/>
+    <rect x="290" y="175" width="14" height="14"/>
+    <rect x="310" y="175" width="14" height="14"/>
+    <rect x="330" y="175" width="14" height="14"/>
+    <rect x="350" y="175" width="14" height="14"/>
+    <rect x="370" y="175" width="14" height="14"/>
+    <rect x="290" y="195" width="14" height="14"/>
+    <rect x="310" y="195" width="14" height="14"/>
+    <rect x="330" y="195" width="14" height="14"/>
+    <rect x="350" y="195" width="14" height="14"/>
+    <rect x="370" y="195" width="14" height="14"/>
+  </g>
+  <text x="360" y="230" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#78350f">25 年盈利</text>
+  <text x="360" y="248" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="bold" fill="#78350f">"合理"</text>
+  <text x="360" y="288" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#6b7280">A 股 / 美股平均水平</text>
+  <!-- PE = 80 -->
+  <text x="580" y="70" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="bold" fill="#dc2626">PE = 80</text>
+  <text x="580" y="88" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#7f1d1d">80 年回本</text>
+  <rect x="500" y="105" width="160" height="160" rx="6" fill="#fee2e2" stroke="#dc2626" stroke-width="2"/>
+  <!-- 用密集小点表示 80 -->
+  <g fill="#dc2626">
+    <rect x="510" y="115" width="6" height="6"/>
+    <rect x="520" y="115" width="6" height="6"/>
+    <rect x="530" y="115" width="6" height="6"/>
+    <rect x="540" y="115" width="6" height="6"/>
+    <rect x="550" y="115" width="6" height="6"/>
+    <rect x="560" y="115" width="6" height="6"/>
+    <rect x="570" y="115" width="6" height="6"/>
+    <rect x="580" y="115" width="6" height="6"/>
+    <rect x="590" y="115" width="6" height="6"/>
+    <rect x="600" y="115" width="6" height="6"/>
+    <rect x="610" y="115" width="6" height="6"/>
+    <rect x="620" y="115" width="6" height="6"/>
+    <rect x="630" y="115" width="6" height="6"/>
+    <rect x="640" y="115" width="6" height="6"/>
+    <rect x="650" y="115" width="6" height="6"/>
+    <rect x="510" y="125" width="6" height="6"/>
+    <rect x="520" y="125" width="6" height="6"/>
+    <rect x="530" y="125" width="6" height="6"/>
+    <rect x="540" y="125" width="6" height="6"/>
+    <rect x="550" y="125" width="6" height="6"/>
+    <rect x="560" y="125" width="6" height="6"/>
+    <rect x="570" y="125" width="6" height="6"/>
+    <rect x="580" y="125" width="6" height="6"/>
+    <rect x="590" y="125" width="6" height="6"/>
+    <rect x="600" y="125" width="6" height="6"/>
+    <rect x="610" y="125" width="6" height="6"/>
+    <rect x="620" y="125" width="6" height="6"/>
+    <rect x="630" y="125" width="6" height="6"/>
+    <rect x="640" y="125" width="6" height="6"/>
+    <rect x="650" y="125" width="6" height="6"/>
+    <rect x="510" y="135" width="6" height="6"/>
+    <rect x="520" y="135" width="6" height="6"/>
+    <rect x="530" y="135" width="6" height="6"/>
+    <rect x="540" y="135" width="6" height="6"/>
+    <rect x="550" y="135" width="6" height="6"/>
+    <rect x="560" y="135" width="6" height="6"/>
+    <rect x="570" y="135" width="6" height="6"/>
+    <rect x="580" y="135" width="6" height="6"/>
+    <rect x="590" y="135" width="6" height="6"/>
+    <rect x="600" y="135" width="6" height="6"/>
+    <rect x="610" y="135" width="6" height="6"/>
+    <rect x="620" y="135" width="6" height="6"/>
+    <rect x="630" y="135" width="6" height="6"/>
+    <rect x="640" y="135" width="6" height="6"/>
+    <rect x="650" y="135" width="6" height="6"/>
+    <rect x="510" y="145" width="6" height="6"/>
+    <rect x="520" y="145" width="6" height="6"/>
+    <rect x="530" y="145" width="6" height="6"/>
+    <rect x="540" y="145" width="6" height="6"/>
+    <rect x="550" y="145" width="6" height="6"/>
+    <rect x="560" y="145" width="6" height="6"/>
+    <rect x="570" y="145" width="6" height="6"/>
+    <rect x="580" y="145" width="6" height="6"/>
+    <rect x="590" y="145" width="6" height="6"/>
+    <rect x="600" y="145" width="6" height="6"/>
+    <rect x="610" y="145" width="6" height="6"/>
+    <rect x="620" y="145" width="6" height="6"/>
+    <rect x="630" y="145" width="6" height="6"/>
+    <rect x="640" y="145" width="6" height="6"/>
+    <rect x="650" y="145" width="6" height="6"/>
+    <rect x="510" y="155" width="6" height="6"/>
+    <rect x="520" y="155" width="6" height="6"/>
+    <rect x="530" y="155" width="6" height="6"/>
+    <rect x="540" y="155" width="6" height="6"/>
+    <rect x="550" y="155" width="6" height="6"/>
+    <rect x="560" y="155" width="6" height="6"/>
+    <rect x="570" y="155" width="6" height="6"/>
+    <rect x="580" y="155" width="6" height="6"/>
+    <rect x="590" y="155" width="6" height="6"/>
+    <rect x="600" y="155" width="6" height="6"/>
+    <rect x="610" y="155" width="6" height="6"/>
+    <rect x="620" y="155" width="6" height="6"/>
+    <rect x="630" y="155" width="6" height="6"/>
+    <rect x="640" y="155" width="6" height="6"/>
+    <rect x="650" y="155" width="6" height="6"/>
+  </g>
+  <text x="580" y="200" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#7f1d1d">75 年盈利（只画了一半）</text>
+  <text x="580" y="248" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="bold" fill="#7f1d1d">"贵"</text>
+  <text x="580" y="288" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#6b7280">高成长科技股、热门板块</text>
+</svg>

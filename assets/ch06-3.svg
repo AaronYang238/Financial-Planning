@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" width="100%" style="max-width:720px;display:block;margin:1em auto;background:#fafafa;border-radius:8px">
+  <text x="360" y="28" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="bold" fill="#1f2937">核心-卫星：用稳健打底，用卫星探索</text>
+  <!-- 核心 -->
+  <circle cx="360" cy="180" r="80" fill="#fef3c7" stroke="#d97706" stroke-width="3"/>
+  <text x="360" y="175" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="bold" fill="#78350f">核心 80%</text>
+  <text x="360" y="195" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#78350f">宽基指数 + 国债</text>
+  <!-- 卫星 1 -->
+  <circle cx="180" cy="120" r="35" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
+  <text x="180" y="118" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="bold" fill="#1e3a8a">行业 ETF</text>
+  <text x="180" y="135" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#1e3a8a">5%</text>
+  <!-- 卫星 2 -->
+  <circle cx="540" cy="120" r="35" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+  <text x="540" y="118" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="bold" fill="#14532d">海外指数</text>
+  <text x="540" y="135" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#14532d">5%</text>
+  <!-- 卫星 3 -->
+  <circle cx="180" cy="260" r="35" fill="#fed7aa" stroke="#ea580c" stroke-width="2"/>
+  <text x="180" y="258" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="bold" fill="#7c2d12">黄金 ETF</text>
+  <text x="180" y="275" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#7c2d12">5%</text>
+  <!-- 卫星 4 -->
+  <circle cx="540" cy="260" r="35" fill="#fce7f3" stroke="#db2777" stroke-width="2"/>
+  <text x="540" y="258" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="bold" fill="#831843">主动股基</text>
+  <text x="540" y="275" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#831843">5%</text>
+  <!-- 连线 -->
+  <line x1="280" y1="180" x2="215" y2="120" stroke="#9ca3af" stroke-width="1" stroke-dasharray="3,3"/>
+  <line x1="440" y1="180" x2="505" y2="120" stroke="#9ca3af" stroke-width="1" stroke-dasharray="3,3"/>
+  <line x1="280" y1="180" x2="215" y2="260" stroke="#9ca3af" stroke-width="1" stroke-dasharray="3,3"/>
+  <line x1="440" y1="180" x2="505" y2="260" stroke="#9ca3af" stroke-width="1" stroke-dasharray="3,3"/>
+  <text x="360" y="335" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#444">核心保证组合大方向，卫星探索特定机会，整体风险可控</text>
+</svg>

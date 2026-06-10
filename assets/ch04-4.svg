@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" width="100%" style="max-width:720px;display:block;margin:1em auto;background:#fafafa;border-radius:8px">
+  <text x="360" y="28" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="bold" fill="#1f2937">风险溢价金字塔：风险越高，预期回报越高（长期）</text>
+  <!-- 金字塔从下到上 -->
+  <!-- 现金 -->
+  <polygon points="60,330 660,330 580,290 140,290" fill="#dbeafe" stroke="#2563eb" stroke-width="1.5"/>
+  <text x="360" y="316" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="bold" fill="#1e3a8a">现金/活期 · 年化 ≈ 0%</text>
+  <!-- 货基/定存 -->
+  <polygon points="140,290 580,290 540,255 180,255" fill="#bfdbfe" stroke="#2563eb" stroke-width="1.5"/>
+  <text x="360" y="277" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="bold" fill="#1e3a8a">货基/短债 · 年化 ≈ 2%</text>
+  <!-- 国债 -->
+  <polygon points="180,255 540,255 510,220 210,220" fill="#a7f3d0" stroke="#059669" stroke-width="1.5"/>
+  <text x="360" y="241" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="bold" fill="#065f46">国债/纯债基 · 年化 ≈ 3-4%</text>
+  <!-- 偏债混合 -->
+  <polygon points="210,220 510,220 480,185 240,185" fill="#fef3c7" stroke="#d97706" stroke-width="1.5"/>
+  <text x="360" y="206" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="bold" fill="#78350f">偏债混合 · 年化 ≈ 5-6%</text>
+  <!-- 指数基金 -->
+  <polygon points="240,185 480,185 450,150 270,150" fill="#fed7aa" stroke="#ea580c" stroke-width="1.5"/>
+  <text x="360" y="171" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="bold" fill="#7c2d12">宽基指数 · 年化 ≈ 8-9%</text>
+  <!-- 主动股基 -->
+  <polygon points="270,150 450,150 420,115 300,115" fill="#fca5a5" stroke="#dc2626" stroke-width="1.5"/>
+  <text x="360" y="136" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="bold" fill="#991b1b">主动股基 · 年化 ≈ 10%</text>
+  <!-- 个股/数字资产 -->
+  <polygon points="300,115 420,115 390,80 330,80" fill="#f87171" stroke="#dc2626" stroke-width="1.5"/>
+  <text x="360" y="101" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="bold" fill="#7f1d1d">单股/数字资产</text>
+  <text x="360" y="115" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#7f1d1d">年化波动巨大</text>
+  <!-- 左侧标注 -->
+  <text x="40" y="350" font-family="sans-serif" font-size="11" fill="#1e40af">↓ 风险低</text>
+  <text x="40" y="90" font-family="sans-serif" font-size="11" fill="#991b1b">↑ 风险高</text>
+  <!-- 右侧标注 -->
+  <text x="680" y="350" text-anchor="end" font-family="sans-serif" font-size="11" fill="#1e40af">回报低</text>
+  <text x="680" y="90" text-anchor="end" font-family="sans-serif" font-size="11" fill="#991b1b">预期回报高</text>
+</svg>

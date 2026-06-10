@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" width="100%" style="max-width:720px;display:block;margin:1em auto;background:#fafafa;border-radius:8px">
+  <text x="360" y="28" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="bold" fill="#1f2937">每月定投 3,000 元 · 年化 8% · 时间越长利息占比越高</text>
+  <!-- 坐标轴 -->
+  <line x1="80" y1="310" x2="680" y2="310" stroke="#374151" stroke-width="2"/>
+  <line x1="80" y1="310" x2="80" y2="60" stroke="#374151" stroke-width="2"/>
+  <!-- 纵轴刻度 -->
+  <text x="72" y="314" text-anchor="end" font-family="sans-serif" font-size="10" fill="#6b7280">0</text>
+  <text x="72" y="252" text-anchor="end" font-family="sans-serif" font-size="10" fill="#6b7280">50万</text>
+  <text x="72" y="190" text-anchor="end" font-family="sans-serif" font-size="10" fill="#6b7280">100万</text>
+  <text x="72" y="128" text-anchor="end" font-family="sans-serif" font-size="10" fill="#6b7280">150万</text>
+  <text x="72" y="66" text-anchor="end" font-family="sans-serif" font-size="10" fill="#6b7280">200万</text>
+  <line x1="80" y1="252" x2="680" y2="252" stroke="#e5e7eb" stroke-dasharray="3,3"/>
+  <line x1="80" y1="190" x2="680" y2="190" stroke="#e5e7eb" stroke-dasharray="3,3"/>
+  <line x1="80" y1="128" x2="680" y2="128" stroke="#e5e7eb" stroke-dasharray="3,3"/>
+  <!-- 5年柱 -->
+  <rect x="135" y="288" width="80" height="22" fill="#60a5fa"/>
+  <text x="175" y="332" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#374151">5年</text>
+  <text x="175" y="282" text-anchor="middle" font-family="sans-serif" font-size="10" font-weight="bold" fill="#1e40af">22万</text>
+  <!-- 10年柱: 本金36+利息18.9 -->
+  <rect x="255" y="266" width="80" height="44" fill="#60a5fa"/>
+  <rect x="255" y="242" width="80" height="24" fill="#34d399"/>
+  <text x="295" y="332" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#374151">10年</text>
+  <text x="295" y="236" text-anchor="middle" font-family="sans-serif" font-size="10" font-weight="bold" fill="#065f46">55万</text>
+  <!-- 15年柱: 54+ 50 -->
+  <rect x="375" y="244" width="80" height="66" fill="#60a5fa"/>
+  <rect x="375" y="180" width="80" height="64" fill="#34d399"/>
+  <text x="415" y="332" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#374151">15年</text>
+  <text x="415" y="174" text-anchor="middle" font-family="sans-serif" font-size="10" font-weight="bold" fill="#065f46">104万</text>
+  <!-- 20年柱: 72+104.5 -->
+  <rect x="495" y="222" width="80" height="88" fill="#60a5fa"/>
+  <rect x="495" y="91" width="80" height="131" fill="#34d399"/>
+  <text x="535" y="332" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#374151">20年</text>
+  <text x="535" y="85" text-anchor="middle" font-family="sans-serif" font-size="10" font-weight="bold" fill="#065f46">176万</text>
+  <!-- 图例 -->
+  <rect x="595" y="70" width="14" height="14" fill="#60a5fa"/>
+  <text x="615" y="82" font-family="sans-serif" font-size="11" fill="#1f2937">本金</text>
+  <rect x="595" y="92" width="14" height="14" fill="#34d399"/>
+  <text x="615" y="104" font-family="sans-serif" font-size="11" fill="#1f2937">利息</text>
+</svg>

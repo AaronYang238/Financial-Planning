@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" width="100%" style="max-width:720px;display:block;margin:1em auto;background:#fafafa;border-radius:8px">
+  <text x="360" y="28" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="bold" fill="#1f2937">债券的现金流：100 元 / 5% 票息 / 5 年期</text>
+  <!-- 时间轴 -->
+  <line x1="80" y1="200" x2="660" y2="200" stroke="#374151" stroke-width="2"/>
+  <text x="80" y="225" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#6b7280">买入日</text>
+  <text x="80" y="240" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#6b7280">Year 0</text>
+  <text x="190" y="225" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#6b7280">第1年末</text>
+  <text x="300" y="225" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#6b7280">第2年末</text>
+  <text x="410" y="225" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#6b7280">第3年末</text>
+  <text x="520" y="225" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#6b7280">第4年末</text>
+  <text x="630" y="225" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#6b7280">第5年末</text>
+  <!-- 买入：付出 100 元 -->
+  <path d="M 80 100 L 80 195" stroke="#dc2626" stroke-width="3" marker-end="url(#redArr11)"/>
+  <text x="80" y="90" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="bold" fill="#991b1b">付出 100</text>
+  <!-- 5 年票息：每年 5 元 -->
+  <g font-family="sans-serif" font-size="12" font-weight="bold" fill="#16a34a">
+    <path d="M 190 160 L 190 195" stroke="#16a34a" stroke-width="2" marker-end="url(#greenArr11)"/>
+    <text x="190" y="150" text-anchor="middle">+5</text>
+    <path d="M 300 160 L 300 195" stroke="#16a34a" stroke-width="2" marker-end="url(#greenArr11)"/>
+    <text x="300" y="150" text-anchor="middle">+5</text>
+    <path d="M 410 160 L 410 195" stroke="#16a34a" stroke-width="2" marker-end="url(#greenArr11)"/>
+    <text x="410" y="150" text-anchor="middle">+5</text>
+    <path d="M 520 160 L 520 195" stroke="#16a34a" stroke-width="2" marker-end="url(#greenArr11)"/>
+    <text x="520" y="150" text-anchor="middle">+5</text>
+  </g>
+  <!-- 第 5 年末：还本 + 最后一次利息 -->
+  <path d="M 630 80 L 630 195" stroke="#2563eb" stroke-width="4" marker-end="url(#blueArr11)"/>
+  <text x="630" y="70" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="bold" fill="#1e3a8a">+105</text>
+  <text x="630" y="55" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#1e3a8a">本金 100 + 票息 5</text>
+  <!-- 总结 -->
+  <text x="370" y="285" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="bold" fill="#1f2937">总收回：5 × 4 + 105 = 125 元</text>
+  <text x="370" y="305" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#444">总收益 = 25 元（持有到期，不卖出）—— 这是票面收益</text>
+  <text x="370" y="325" text-anchor="middle" font-family="sans-serif" font-size="11" font-style="italic" fill="#991b1b">如果你在第 3 年急用钱卖出 → 价格随当时市场利率而定（这才是债券的波动来源）</text>
+  <defs>
+    <marker id="redArr11" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 z" fill="#dc2626"/>
+    </marker>
+    <marker id="greenArr11" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 z" fill="#16a34a"/>
+    </marker>
+    <marker id="blueArr11" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 z" fill="#2563eb"/>
+    </marker>
+  </defs>
+</svg>

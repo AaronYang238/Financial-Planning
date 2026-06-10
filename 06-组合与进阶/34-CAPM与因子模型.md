@@ -108,59 +108,7 @@ $$
 
 ### 1.5 证券市场线（SML）
 
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" width="100%" style="max-width:720px;display:block;margin:1em auto;background:#fafafa;border-radius:8px">
-  <text x="360" y="28" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="bold" fill="#1f2937">证券市场线（SML）：Beta 决定应得收益</text>
-  <!-- 坐标轴 -->
-  <line x1="80" y1="320" x2="680" y2="320" stroke="#374151" stroke-width="2"/>
-  <line x1="80" y1="60" x2="80" y2="320" stroke="#374151" stroke-width="2"/>
-  <text x="380" y="350" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="bold" fill="#374151">Beta（系统性风险）</text>
-  <text x="40" y="190" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="bold" fill="#374151" transform="rotate(-90 40 190)">预期收益</text>
-  <!-- X 轴刻度 -->
-  <text x="80" y="335" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#6b7280">0</text>
-  <text x="180" y="335" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#6b7280">0.5</text>
-  <line x1="180" y1="318" x2="180" y2="322" stroke="#6b7280"/>
-  <text x="320" y="335" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#6b7280">1.0</text>
-  <line x1="320" y1="318" x2="320" y2="322" stroke="#6b7280"/>
-  <text x="460" y="335" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#6b7280">1.5</text>
-  <line x1="460" y1="318" x2="460" y2="322" stroke="#6b7280"/>
-  <text x="600" y="335" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#6b7280">2.0</text>
-  <line x1="600" y1="318" x2="600" y2="322" stroke="#6b7280"/>
-  <!-- Y 轴刻度 -->
-  <text x="70" y="324" text-anchor="end" font-family="sans-serif" font-size="10" fill="#6b7280">2.5%</text>
-  <text x="70" y="240" text-anchor="end" font-family="sans-serif" font-size="10" fill="#6b7280">6%</text>
-  <line x1="78" y1="235" x2="80" y2="235" stroke="#6b7280"/>
-  <text x="70" y="160" text-anchor="end" font-family="sans-serif" font-size="10" fill="#6b7280">10%</text>
-  <line x1="78" y1="155" x2="80" y2="155" stroke="#6b7280"/>
-  <text x="70" y="80" text-anchor="end" font-family="sans-serif" font-size="10" fill="#6b7280">14%</text>
-  <line x1="78" y1="75" x2="80" y2="75" stroke="#6b7280"/>
-  <!-- SML 直线 -->
-  <line x1="80" y1="305" x2="660" y2="60" stroke="#2563eb" stroke-width="3"/>
-  <text x="500" y="80" font-family="sans-serif" font-size="11" font-weight="bold" fill="#1e3a8a">SML（证券市场线）</text>
-  <text x="500" y="98" font-family="sans-serif" font-size="9" fill="#1e3a8a">应得收益 = rf + β × MRP</text>
-  <!-- 无风险点 -->
-  <circle cx="80" cy="305" r="5" fill="#16a34a" stroke="white" stroke-width="2"/>
-  <text x="90" y="312" font-family="sans-serif" font-size="9" fill="#14532d">无风险</text>
-  <!-- 市场点 -->
-  <circle cx="320" cy="200" r="6" fill="#d97706" stroke="white" stroke-width="2"/>
-  <text x="280" y="195" font-family="sans-serif" font-size="10" font-weight="bold" fill="#78350f">市场</text>
-  <text x="280" y="208" font-family="sans-serif" font-size="9" fill="#78350f">β=1, r=8%</text>
-  <!-- 茅台 -->
-  <circle cx="290" cy="218" r="5" fill="#9ca3af" stroke="white" stroke-width="2"/>
-  <text x="240" y="218" font-family="sans-serif" font-size="9" fill="#374151">茅台</text>
-  <text x="240" y="230" font-family="sans-serif" font-size="9" fill="#374151">β=0.85</text>
-  <!-- 比亚迪 -->
-  <circle cx="460" cy="120" r="5" fill="#9ca3af" stroke="white" stroke-width="2"/>
-  <text x="470" y="115" font-family="sans-serif" font-size="9" fill="#374151">比亚迪</text>
-  <text x="470" y="128" font-family="sans-serif" font-size="9" fill="#374151">β=1.5</text>
-  <!-- 高 alpha 股 -->
-  <circle cx="320" cy="140" r="6" fill="#16a34a" stroke="white" stroke-width="2"/>
-  <text x="330" y="138" font-family="sans-serif" font-size="9" font-weight="bold" fill="#14532d">超额回报 α > 0</text>
-  <text x="330" y="150" font-family="sans-serif" font-size="9" fill="#14532d">（在 SML 上方 = 低估）</text>
-  <!-- 低 alpha 股 -->
-  <circle cx="320" cy="260" r="6" fill="#dc2626" stroke="white" stroke-width="2"/>
-  <text x="330" y="258" font-family="sans-serif" font-size="9" font-weight="bold" fill="#991b1b">超额回报 α < 0</text>
-  <text x="330" y="270" font-family="sans-serif" font-size="9" fill="#991b1b">（在 SML 下方 = 高估）</text>
-</svg>
+![证券市场线（SML）：Beta 决定应得收益](../assets/ch34-1.svg)
 
 **SML 上的点 = CAPM 公允定价**
 **SML 上方 = α > 0**（被低估，未来上涨概率大）

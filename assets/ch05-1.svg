@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" width="100%" style="max-width:720px;display:block;margin:1em auto;background:#fafafa;border-radius:8px">
+  <text x="360" y="28" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="bold" fill="#1f2937">承受能力 × 风险偏好 = 四种类型</text>
+  <!-- 坐标轴 -->
+  <line x1="120" y1="370" x2="680" y2="370" stroke="#374151" stroke-width="2"/>
+  <line x1="120" y1="370" x2="120" y2="70" stroke="#374151" stroke-width="2"/>
+  <text x="400" y="395" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="bold" fill="#1f2937">风险偏好（愿意承担多少）→</text>
+  <text x="60" y="220" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="bold" fill="#1f2937" transform="rotate(-90 60 220)">风险承受能力（能承担多少）→</text>
+  <!-- 横轴标签 -->
+  <text x="260" y="385" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#6b7280">低（保守）</text>
+  <text x="540" y="385" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#6b7280">高（激进）</text>
+  <!-- 纵轴标签 -->
+  <text x="110" y="320" text-anchor="end" font-family="sans-serif" font-size="11" fill="#6b7280">弱</text>
+  <text x="110" y="130" text-anchor="end" font-family="sans-serif" font-size="11" fill="#6b7280">强</text>
+  <!-- 中线 -->
+  <line x1="400" y1="370" x2="400" y2="70" stroke="#9ca3af" stroke-dasharray="3,3"/>
+  <line x1="120" y1="220" x2="680" y2="220" stroke="#9ca3af" stroke-dasharray="3,3"/>
+  <!-- 左下：弱+保守 -->
+  <rect x="125" y="225" width="270" height="140" fill="#dbeafe" stroke="#2563eb" stroke-width="1.5"/>
+  <text x="260" y="255" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="bold" fill="#1e3a8a">① 一致：低风险</text>
+  <text x="260" y="280" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#1e3a8a">客观弱，主观也不想冒险</text>
+  <text x="260" y="310" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="bold" fill="#1e3a8a">→ 安心配置稳健类</text>
+  <text x="260" y="335" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#1e3a8a">货基/纯债/银行理财</text>
+  <!-- 右上：强+激进 -->
+  <rect x="405" y="75" width="270" height="140" fill="#dcfce7" stroke="#16a34a" stroke-width="1.5"/>
+  <text x="540" y="105" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="bold" fill="#14532d">② 一致：高风险</text>
+  <text x="540" y="130" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#14532d">客观强，主观也愿意承担</text>
+  <text x="540" y="160" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="bold" fill="#14532d">→ 可以激进配置股票</text>
+  <text x="540" y="185" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#14532d">指数基金/主动股基为主</text>
+  <!-- 左上：强+保守 -->
+  <rect x="125" y="75" width="270" height="140" fill="#fef3c7" stroke="#d97706" stroke-width="1.5"/>
+  <text x="260" y="105" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="bold" fill="#78350f">③ 错位：可惜了</text>
+  <text x="260" y="130" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#78350f">客观能承担，主观胆小</text>
+  <text x="260" y="160" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="bold" fill="#78350f">→ 浪费了承担风险的能力</text>
+  <text x="260" y="185" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#78350f">慢慢提高股票比例</text>
+  <!-- 右下：弱+激进 -->
+  <rect x="405" y="225" width="270" height="140" fill="#fee2e2" stroke="#dc2626" stroke-width="1.5"/>
+  <text x="540" y="255" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="bold" fill="#991b1b">④ 错位：危险</text>
+  <text x="540" y="280" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#991b1b">客观承担不起，但想搏一把</text>
+  <text x="540" y="310" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="bold" fill="#991b1b">→ 故事里的小李</text>
+  <text x="540" y="335" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#991b1b">必须降低风险比例！</text>
+</svg>

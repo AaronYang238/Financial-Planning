@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" width="100%" style="max-width:720px;display:block;margin:1em auto;background:#fafafa;border-radius:8px">
+  <text x="360" y="28" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="bold" fill="#1f2937">中国 A 股：三个交易所，七个板块</text>
+  <!-- 上交所 -->
+  <rect x="40" y="60" width="200" height="280" rx="8" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
+  <text x="140" y="88" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="bold" fill="#1e3a8a">上交所（SSE）</text>
+  <text x="140" y="106" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#1e3a8a">代码 6 开头</text>
+  <line x1="60" y1="118" x2="220" y2="118" stroke="#2563eb" stroke-width="1"/>
+  <!-- 主板 -->
+  <rect x="60" y="130" width="160" height="55" rx="4" fill="#bfdbfe" stroke="#1e40af" stroke-width="1"/>
+  <text x="140" y="150" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="bold" fill="#1e3a8a">主板</text>
+  <text x="140" y="168" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#1e3a8a">大蓝筹 ±10%</text>
+  <!-- 科创板 -->
+  <rect x="60" y="195" width="160" height="55" rx="4" fill="#bfdbfe" stroke="#1e40af" stroke-width="1"/>
+  <text x="140" y="215" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="bold" fill="#1e3a8a">科创板</text>
+  <text x="140" y="233" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#1e3a8a">科技公司 ±20%</text>
+  <!-- 主板B股 -->
+  <rect x="60" y="260" width="160" height="55" rx="4" fill="#e0e7ff" stroke="#6366f1" stroke-width="1"/>
+  <text x="140" y="280" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="bold" fill="#3730a3">B 股（已边缘）</text>
+  <text x="140" y="298" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#3730a3">美元计价，几乎无新增</text>
+  <!-- 深交所 -->
+  <rect x="260" y="60" width="200" height="280" rx="8" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+  <text x="360" y="88" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="bold" fill="#14532d">深交所（SZSE）</text>
+  <text x="360" y="106" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#14532d">代码 0 或 3 开头</text>
+  <line x1="280" y1="118" x2="440" y2="118" stroke="#16a34a" stroke-width="1"/>
+  <!-- 主板 -->
+  <rect x="280" y="130" width="160" height="55" rx="4" fill="#bbf7d0" stroke="#15803d" stroke-width="1"/>
+  <text x="360" y="150" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="bold" fill="#14532d">主板</text>
+  <text x="360" y="168" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#14532d">中等市值 ±10%</text>
+  <!-- 创业板 -->
+  <rect x="280" y="195" width="160" height="55" rx="4" fill="#bbf7d0" stroke="#15803d" stroke-width="1"/>
+  <text x="360" y="215" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="bold" fill="#14532d">创业板</text>
+  <text x="360" y="233" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#14532d">成长公司 ±20%</text>
+  <!-- 主板B股 -->
+  <rect x="280" y="260" width="160" height="55" rx="4" fill="#d1fae5" stroke="#10b981" stroke-width="1"/>
+  <text x="360" y="280" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="bold" fill="#064e3b">B 股（港元计价）</text>
+  <text x="360" y="298" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#064e3b">已边缘化</text>
+  <!-- 北交所 -->
+  <rect x="480" y="60" width="200" height="280" rx="8" fill="#fef3c7" stroke="#d97706" stroke-width="2"/>
+  <text x="580" y="88" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="bold" fill="#78350f">北交所（BSE）</text>
+  <text x="580" y="106" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#78350f">代码 4 或 8 开头</text>
+  <line x1="500" y1="118" x2="660" y2="118" stroke="#d97706" stroke-width="1"/>
+  <!-- 北交所主板 -->
+  <rect x="500" y="130" width="160" height="120" rx="4" fill="#fed7aa" stroke="#c2410c" stroke-width="1"/>
+  <text x="580" y="155" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="bold" fill="#78350f">北交所板块</text>
+  <text x="580" y="178" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#78350f">"专精特新"中小</text>
+  <text x="580" y="195" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#78350f">±30% 涨跌停</text>
+  <text x="580" y="215" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#78350f">2021 年新设</text>
+  <text x="580" y="235" text-anchor="middle" font-family="sans-serif" font-size="9" font-style="italic" fill="#78350f">门槛：50 万资金</text>
+  <!-- 新三板 -->
+  <rect x="500" y="260" width="160" height="55" rx="4" fill="#fde68a" stroke="#a16207" stroke-width="1"/>
+  <text x="580" y="280" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="bold" fill="#854d0e">新三板（场外）</text>
+  <text x="580" y="298" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#854d0e">几乎无散户</text>
+</svg>

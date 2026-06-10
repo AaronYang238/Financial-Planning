@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" width="100%" style="max-width:720px;display:block;margin:1em auto;background:#fafafa;border-radius:8px">
+  <text x="360" y="28" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="bold" fill="#1f2937">五种 Smart Beta 因子：用规则替代市值</text>
+  <!-- 红利 -->
+  <rect x="40" y="60" width="200" height="135" rx="8" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+  <text x="140" y="90" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="bold" fill="#14532d">① 红利（Dividend）</text>
+  <line x1="60" y1="105" x2="220" y2="105" stroke="#16a34a" stroke-width="1"/>
+  <text x="140" y="125" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#14532d">挑高股息率公司</text>
+  <text x="140" y="145" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#14532d">代表：中证红利、深证红利</text>
+  <text x="140" y="172" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="bold" fill="#14532d">特点：防守型 + 类债</text>
+  <!-- 低波 -->
+  <rect x="260" y="60" width="200" height="135" rx="8" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
+  <text x="360" y="90" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="bold" fill="#1e3a8a">② 低波（Low Vol）</text>
+  <line x1="280" y1="105" x2="440" y2="105" stroke="#2563eb" stroke-width="1"/>
+  <text x="360" y="125" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#1e3a8a">挑波动率最低的公司</text>
+  <text x="360" y="145" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#1e3a8a">代表：500 低波动、300 低波</text>
+  <text x="360" y="172" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="bold" fill="#1e3a8a">特点：回撤小 + 夏普高</text>
+  <!-- 价值 -->
+  <rect x="480" y="60" width="200" height="135" rx="8" fill="#fef3c7" stroke="#d97706" stroke-width="2"/>
+  <text x="580" y="90" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="bold" fill="#78350f">③ 价值（Value）</text>
+  <line x1="500" y1="105" x2="660" y2="105" stroke="#d97706" stroke-width="1"/>
+  <text x="580" y="125" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#78350f">挑低 PE/PB 的公司</text>
+  <text x="580" y="145" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#78350f">代表：MSCI 中国 A 股价值</text>
+  <text x="580" y="172" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="bold" fill="#78350f">特点：便宜 + 慢牛</text>
+  <!-- 质量 -->
+  <rect x="40" y="215" width="200" height="135" rx="8" fill="#fed7aa" stroke="#ea580c" stroke-width="2"/>
+  <text x="140" y="245" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="bold" fill="#7c2d12">④ 质量（Quality）</text>
+  <line x1="60" y1="260" x2="220" y2="260" stroke="#ea580c" stroke-width="1"/>
+  <text x="140" y="280" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#7c2d12">挑高 ROE/低负债公司</text>
+  <text x="140" y="300" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#7c2d12">代表：质量增强、300 质量</text>
+  <text x="140" y="327" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="bold" fill="#7c2d12">特点：好公司 + 长牛</text>
+  <!-- 动量 -->
+  <rect x="260" y="215" width="200" height="135" rx="8" fill="#fee2e2" stroke="#dc2626" stroke-width="2"/>
+  <text x="360" y="245" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="bold" fill="#991b1b">⑤ 动量（Momentum）</text>
+  <line x1="280" y1="260" x2="440" y2="260" stroke="#dc2626" stroke-width="1"/>
+  <text x="360" y="280" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#991b1b">挑近期涨多的公司</text>
+  <text x="360" y="300" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#991b1b">代表：500 动量、动量100</text>
+  <text x="360" y="327" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="bold" fill="#991b1b">特点：追涨 + 高换手</text>
+  <!-- 多因子 -->
+  <rect x="480" y="215" width="200" height="135" rx="8" fill="#fce7f3" stroke="#db2777" stroke-width="2"/>
+  <text x="580" y="245" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="bold" fill="#831843">⑥ 多因子</text>
+  <line x1="500" y1="260" x2="660" y2="260" stroke="#db2777" stroke-width="1"/>
+  <text x="580" y="280" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#831843">综合上面多个因子</text>
+  <text x="580" y="300" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#831843">代表：策略加权指数</text>
+  <text x="580" y="327" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="bold" fill="#831843">特点：均衡 + 复杂</text>
+</svg>
