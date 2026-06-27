@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" width="100%" style="max-width:720px;display:block;margin:1em auto;background:#fafafa;border-radius:8px">
+  <text x="360" y="30" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="bold" fill="#1f2937">一条新闻到你手机的"加工链"——每一层都在掺水</text>
+  <!-- funnel layers -->
+  <rect x="120" y="55" width="480" height="46" rx="6" fill="#dbeafe" stroke="#2563eb" stroke-width="1.5"/>
+  <text x="360" y="78" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="bold" fill="#1e3a8a">① 事实发生</text>
+  <text x="360" y="94" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#1e3a8a">公司公告 / 经济数据 / 政策原文（最干净）</text>
+
+  <rect x="160" y="115" width="400" height="46" rx="6" fill="#e0f2fe" stroke="#0284c7" stroke-width="1.5"/>
+  <text x="360" y="138" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="bold" fill="#075985">② 媒体编辑</text>
+  <text x="360" y="154" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#075985">起标题、选角度、删上下文（开始失真）</text>
+
+  <rect x="200" y="175" width="320" height="46" rx="6" fill="#fef9c3" stroke="#ca8a04" stroke-width="1.5"/>
+  <text x="360" y="198" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="bold" fill="#854d0e">③ 大V / 自媒体解读</text>
+  <text x="360" y="214" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#854d0e">加情绪、加立场、加"喊单"（夹带私货）</text>
+
+  <rect x="240" y="235" width="240" height="46" rx="6" fill="#fee2e2" stroke="#dc2626" stroke-width="1.5"/>
+  <text x="360" y="258" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="bold" fill="#991b1b">④ 算法推送到你</text>
+  <text x="360" y="274" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#991b1b">只推你爱看的 → 回音壁</text>
+
+  <!-- arrows -->
+  <path d="M360 101 L360 113" stroke="#64748b" stroke-width="2" marker-end="url(#a43)"/>
+  <path d="M360 161 L360 173" stroke="#64748b" stroke-width="2" marker-end="url(#a43)"/>
+  <path d="M360 221 L360 233" stroke="#64748b" stroke-width="2" marker-end="url(#a43)"/>
+  <defs><marker id="a43" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8 z" fill="#64748b"/></marker></defs>
+
+  <text x="360" y="320" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="bold" fill="#16a34a">✅ 高手的动作：尽量往上一层走，直接读①的原文</text>
+  <text x="360" y="350" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#444">越靠近事实，杂质越少；越靠近你的手机，情绪越多、立场越重</text>
+  <text x="360" y="378" text-anchor="middle" font-family="sans-serif" font-size="11" font-style="italic" fill="#7f1d1d">同一件事，①是"利率下调25个基点"，④可能是"央行大放水！牛市来了！"</text>
+</svg>

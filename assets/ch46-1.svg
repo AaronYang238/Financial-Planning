@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" width="100%" style="max-width:720px;display:block;margin:1em auto;background:#fafafa;border-radius:8px">
+  <text x="360" y="30" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="bold" fill="#1f2937">各种"玩法"地图：门槛越低、风险越可控的越靠左下</text>
+  <!-- axes -->
+  <line x1="80" y1="370" x2="690" y2="370" stroke="#9ca3af" stroke-width="1.5"/>
+  <line x1="80" y1="60" x2="80" y2="370" stroke="#9ca3af" stroke-width="1.5"/>
+  <text x="385" y="400" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#6b7280">门槛 / 所需精力 →</text>
+  <text x="55" y="215" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#6b7280" transform="rotate(-90 55 215)">风险 / 亏损可能 →</text>
+  <!-- quadrant tint -->
+  <rect x="80" y="240" width="300" height="130" fill="#dcfce7" opacity="0.5"/>
+  <rect x="80" y="60" width="610" height="180" fill="#fee2e2" opacity="0.3"/>
+  <text x="230" y="262" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#16a34a">适合多数人 ✅</text>
+  <text x="560" y="82" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#dc2626">慎入 / 多数人别碰 ⚠</text>
+
+  <g font-family="sans-serif" font-size="11" fill="#1f2937">
+  <circle cx="140" cy="330" r="6" fill="#16a34a"/><text x="152" y="334">指数基金定投</text>
+  <circle cx="200" cy="300" r="6" fill="#16a34a"/><text x="212" y="304">国债逆回购</text>
+  <circle cx="190" cy="270" r="6" fill="#16a34a"/><text x="202" y="274">打新股（中签）</text>
+  <circle cx="300" cy="260" r="6" fill="#65a30d"/><text x="312" y="264">可转债打新</text>
+  <circle cx="330" cy="210" r="6" fill="#ca8a04"/><text x="342" y="214">智能投顾/投顾组合</text>
+  <circle cx="380" cy="175" r="6" fill="#ca8a04"/><text x="392" y="179">网格交易</text>
+  <circle cx="300" cy="150" r="6" fill="#ea580c"/><text x="312" y="154">跟单/抄作业</text>
+  <circle cx="480" cy="130" r="6" fill="#dc2626"/><text x="492" y="134">个股短线/打板</text>
+  <circle cx="560" cy="100" r="6" fill="#dc2626"/><text x="572" y="104">期货/期权（杠杆）</text>
+  <circle cx="600" cy="155" r="6" fill="#dc2626"/><text x="612" y="159">量化高频</text>
+  </g>
+  <text x="385" y="415" text-anchor="middle" font-family="sans-serif" font-size="10" font-style="italic" fill="#7f1d1d">本图为教学示意，位置非精确测量；越靠右上，"看起来赚得快、实际亏得多"的概率越高</text>
+</svg>
