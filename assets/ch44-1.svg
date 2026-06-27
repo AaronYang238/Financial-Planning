@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" width="100%" style="max-width:720px;display:block;margin:1em auto;background:#fafafa;border-radius:8px">
+  <text x="360" y="30" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="bold" fill="#1f2937">量化投资的闭环：把"凭感觉"变成"按规则"</text>
+  <!-- circle of steps -->
+  <defs><marker id="a44" markerWidth="9" markerHeight="9" refX="4.5" refY="4.5" orient="auto"><path d="M0 0 L9 4.5 L0 9 z" fill="#7c3aed"/></marker></defs>
+  <!-- nodes positioned in a hexagon -->
+  <g font-family="sans-serif">
+  <rect x="300" y="60" width="120" height="44" rx="22" fill="#ede9fe" stroke="#7c3aed" stroke-width="1.5"/>
+  <text x="360" y="80" text-anchor="middle" font-size="13" font-weight="bold" fill="#5b21b6">① 数据</text>
+  <text x="360" y="96" text-anchor="middle" font-size="9" fill="#5b21b6">行情/财务/宏观</text>
+
+  <rect x="510" y="130" width="120" height="44" rx="22" fill="#ede9fe" stroke="#7c3aed" stroke-width="1.5"/>
+  <text x="570" y="150" text-anchor="middle" font-size="13" font-weight="bold" fill="#5b21b6">② 因子/信号</text>
+  <text x="570" y="166" text-anchor="middle" font-size="9" fill="#5b21b6">低估值/动量/质量</text>
+
+  <rect x="510" y="240" width="120" height="44" rx="22" fill="#ede9fe" stroke="#7c3aed" stroke-width="1.5"/>
+  <text x="570" y="260" text-anchor="middle" font-size="13" font-weight="bold" fill="#5b21b6">③ 策略规则</text>
+  <text x="570" y="276" text-anchor="middle" font-size="9" fill="#5b21b6">买什么/何时/多少</text>
+
+  <rect x="300" y="300" width="120" height="44" rx="22" fill="#ede9fe" stroke="#7c3aed" stroke-width="1.5"/>
+  <text x="360" y="320" text-anchor="middle" font-size="13" font-weight="bold" fill="#5b21b6">④ 回测验证</text>
+  <text x="360" y="336" text-anchor="middle" font-size="9" fill="#5b21b6">用历史检验</text>
+
+  <rect x="90" y="240" width="120" height="44" rx="22" fill="#ede9fe" stroke="#7c3aed" stroke-width="1.5"/>
+  <text x="150" y="260" text-anchor="middle" font-size="13" font-weight="bold" fill="#5b21b6">⑤ 执行</text>
+  <text x="150" y="276" text-anchor="middle" font-size="9" fill="#5b21b6">纪律下单</text>
+
+  <rect x="90" y="130" width="120" height="44" rx="22" fill="#ede9fe" stroke="#7c3aed" stroke-width="1.5"/>
+  <text x="150" y="150" text-anchor="middle" font-size="13" font-weight="bold" fill="#5b21b6">⑥ 复盘迭代</text>
+  <text x="150" y="166" text-anchor="middle" font-size="9" fill="#5b21b6">改进再循环</text>
+  </g>
+  <!-- arrows around the loop -->
+  <path d="M425 90 Q500 100 540 128" stroke="#7c3aed" stroke-width="2" fill="none" marker-end="url(#a44)"/>
+  <path d="M570 174 L570 238" stroke="#7c3aed" stroke-width="2" fill="none" marker-end="url(#a44)"/>
+  <path d="M540 286 Q500 312 425 320" stroke="#7c3aed" stroke-width="2" fill="none" marker-end="url(#a44)"/>
+  <path d="M298 322 Q230 312 192 286" stroke="#7c3aed" stroke-width="2" fill="none" marker-end="url(#a44)"/>
+  <path d="M150 238 L150 176" stroke="#7c3aed" stroke-width="2" fill="none" marker-end="url(#a44)"/>
+  <path d="M192 128 Q230 100 298 92" stroke="#7c3aed" stroke-width="2" fill="none" marker-end="url(#a44)"/>
+  <text x="360" y="210" text-anchor="middle" font-family="sans-serif" font-size="11" font-style="italic" fill="#6b7280">散户量化的价值不在"更聪明"，<tspan x="360" dy="16">而在"用规则锁住纪律、关掉情绪"</tspan></text>
+</svg>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 410" width="100%" style="max-width:720px;display:block;margin:1em auto;background:#fafafa;border-radius:8px">
+  <text x="360" y="30" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="bold" fill="#1f2937">养基宝的"基金组合金字塔"：核心打底，卫星增强</text>
+  <!-- pyramid -->
+  <polygon points="360,60 280,150 440,150" fill="#fecaca" stroke="#dc2626" stroke-width="1.5"/>
+  <text x="360" y="115" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="bold" fill="#991b1b">卫星 10-20%</text>
+  <text x="360" y="135" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#991b1b">行业/主题/可转债基</text>
+
+  <polygon points="280,150 440,150 510,250 210,250" fill="#fde68a" stroke="#ca8a04" stroke-width="1.5"/>
+  <text x="360" y="195" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="bold" fill="#854d0e">权益核心 40-60%</text>
+  <text x="360" y="215" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#854d0e">宽基指数（沪深300/中证500/标普500）+ 少量主动</text>
+
+  <polygon points="210,250 510,250 580,350 140,350" fill="#bbf7d0" stroke="#16a34a" stroke-width="1.5"/>
+  <text x="360" y="295" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="bold" fill="#14532d">稳健打底 30-50%</text>
+  <text x="360" y="315" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#14532d">债基 + 货币基金 + 应急金（先保命，再谈进攻）</text>
+
+  <!-- side labels -->
+  <text x="610" y="105" font-family="sans-serif" font-size="10" fill="#991b1b">↑ 进攻 / 高波动</text>
+  <text x="610" y="305" font-family="sans-serif" font-size="10" fill="#14532d">↓ 防守 / 低波动</text>
+  <line x1="600" y1="115" x2="600" y2="300" stroke="#9ca3af" stroke-width="1" marker-start="url(#up45)" marker-end="url(#dn45)"/>
+  <defs>
+    <marker id="up45" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto"><path d="M4 0 L8 8 L0 8 z" fill="#9ca3af"/></marker>
+    <marker id="dn45" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto"><path d="M0 0 L8 0 L4 8 z" fill="#9ca3af"/></marker>
+  </defs>
+  <text x="360" y="385" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#444">比例随年龄/风险偏好调整：保守的人加厚绿色层，进取的人加厚红黄层</text>
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" width="100%" style="max-width:720px;display:block;margin:1em auto;background:#fafafa;border-radius:8px">
+  <text x="360" y="30" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="bold" fill="#1f2937">回测最大的坑：过拟合——回测很美，实盘打脸</text>
+  <line x1="70" y1="300" x2="680" y2="300" stroke="#9ca3af" stroke-width="1.5"/>
+  <line x1="70" y1="60" x2="70" y2="300" stroke="#9ca3af" stroke-width="1.5"/>
+  <text x="60" y="70" text-anchor="end" font-family="sans-serif" font-size="11" fill="#6b7280">累计收益</text>
+  <text x="675" y="318" text-anchor="end" font-family="sans-serif" font-size="11" fill="#6b7280">时间</text>
+  <!-- divider: backtest vs live -->
+  <line x1="400" y1="60" x2="400" y2="300" stroke="#cbd5e1" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <text x="235" y="80" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="bold" fill="#6b7280">回测区间（你调参的地方）</text>
+  <text x="540" y="80" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="bold" fill="#6b7280">实盘区间（没见过的未来）</text>
+  <!-- overfit curve -->
+  <polyline points="90,290 160,250 230,180 300,120 380,75 400,80 470,160 540,210 610,250" fill="none" stroke="#dc2626" stroke-width="2.5"/>
+  <text x="300" y="110" font-family="sans-serif" font-size="11" font-weight="bold" fill="#dc2626">过拟合策略</text>
+  <text x="470" y="150" font-family="sans-serif" font-size="11" font-weight="bold" fill="#dc2626">实盘崩了</text>
+  <!-- robust curve -->
+  <polyline points="90,290 160,275 230,255 300,235 380,215 400,210 470,190 540,170 610,150" fill="none" stroke="#16a34a" stroke-width="2.5" stroke-dasharray="2 0"/>
+  <text x="540" y="160" font-family="sans-serif" font-size="11" font-weight="bold" fill="#16a34a">稳健策略</text>
+  <text x="360" y="345" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#444">参数越多、回测越完美，越可能是"背答案"——真正的检验在样本外</text>
+</svg>
