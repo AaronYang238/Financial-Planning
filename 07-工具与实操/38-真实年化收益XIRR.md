@@ -17,6 +17,25 @@
 
 ---
 
+## 📖 本章英文缩写速查
+
+> 看到不认识的英文缩写，先回这张表查；完整术语见 [GLOSSARY.md](../GLOSSARY.md)。
+
+| 缩写 | 英文全称 | 中文含义 |
+|---|---|---|
+| **XIRR** | Extended Internal Rate of Return | 不规则现金流的内部收益率（真实年化收益） |
+| **IRR** | Internal Rate of Return | 内部收益率 |
+| **TWR** | Time-Weighted Return | 时间加权收益率（衡量基金本身表现） |
+| **NPV** | Net Present Value | 净现值 |
+| **ETF** | Exchange-Traded Fund | 交易所交易基金 |
+| **CAGR** | Compound Annual Growth Rate | 复合年均增长率 |
+| **FV** | Future Value | 终值（未来值） |
+| **PV** | Present Value | 现值 |
+| **PMT** | Payment | 每期等额支付金额（Excel 函数） |
+| **RATE** | RATE function | Excel 函数：由现金流反推利率 |
+
+---
+
 ## 0. 先讲个故事
 
 **小王 2020-2024 年坚持月定投沪深 300 ETF**：

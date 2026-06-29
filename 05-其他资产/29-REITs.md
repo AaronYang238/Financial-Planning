@@ -16,6 +16,20 @@
 
 ---
 
+## 📖 本章英文缩写速查
+
+> 看到不认识的英文缩写，先回这张表查；完整术语见 [GLOSSARY.md](../GLOSSARY.md)。
+
+| 缩写 | 英文全称 | 中文含义 |
+|---|---|---|
+| **NAV** | Net Asset Value | 基金/资产净值 |
+| **ETF** | Exchange-Traded Fund | 交易所交易基金 |
+| **YTM** | Yield to Maturity | 到期收益率（债券） |
+| **REIT** | Real Estate Investment Trust | 不动产投资信托基金 |
+| **QDII** | Qualified Domestic Institutional Investor | 合格境内机构投资者，借道投资海外的渠道 |
+
+---
+
 ## 0. 先讲个故事
 
 **老李** 攒了 30 万，想买套房收租养老。

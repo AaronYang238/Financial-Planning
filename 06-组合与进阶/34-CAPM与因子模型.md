@@ -17,6 +17,31 @@
 
 ---
 
+## 📖 本章英文缩写速查
+
+> 看到不认识的英文缩写，先回这张表查；完整术语见 [GLOSSARY.md](../GLOSSARY.md)。
+
+| 缩写 | 英文全称 | 中文含义 |
+|---|---|---|
+| **CAPM** | Capital Asset Pricing Model | 资本资产定价模型 |
+| **ETF** | Exchange-Traded Fund | 交易所交易基金 |
+| **SMB** | Small Minus Big | 规模因子（小盘减大盘） |
+| **HML** | High Minus Low | 价值因子（高账面市值比减低） |
+| **MKT** | Market factor | 市场因子 |
+| **SML** | Security Market Line | 证券市场线 |
+| **PB** | Price-to-Book ratio | 市净率：股价 ÷ 每股净资产 |
+| **BM** | Book-to-Market ratio | 账面市值比 |
+| **RMW** | Robust Minus Weak | 盈利因子 |
+| **CMA** | Conservative Minus Aggressive | 投资因子 |
+| **PE** | Price-to-Earnings ratio | 市盈率：股价 ÷ 每股收益 |
+| **MPT** | Modern Portfolio Theory | 现代投资组合理论 |
+| **ROE** | Return on Equity | 净资产收益率，衡量股东回报 |
+| **FF** | Fama-French | 法玛-佛伦奇（三/五因子模型作者） |
+| **QDII** | Qualified Domestic Institutional Investor | 合格境内机构投资者，借道投资海外的渠道 |
+| **UMD** | Up Minus Down | 动量因子 |
+
+---
+
 ## 0. 先讲个故事
 
 **问题**：为什么过去 10 年——
