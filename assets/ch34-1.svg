@@ -44,10 +44,10 @@
   <text x="470" y="128" font-family="sans-serif" font-size="9" fill="#374151">β=1.5</text>
   <!-- 高 alpha 股 -->
   <circle cx="320" cy="140" r="6" fill="#16a34a" stroke="white" stroke-width="2"/>
-  <text x="330" y="138" font-family="sans-serif" font-size="9" font-weight="bold" fill="#14532d">超额回报 α > 0</text>
+  <text x="330" y="138" font-family="sans-serif" font-size="9" font-weight="bold" fill="#14532d">超额回报 α &gt; 0</text>
   <text x="330" y="150" font-family="sans-serif" font-size="9" fill="#14532d">（在 SML 上方 = 低估）</text>
   <!-- 低 alpha 股 -->
   <circle cx="320" cy="260" r="6" fill="#dc2626" stroke="white" stroke-width="2"/>
-  <text x="330" y="258" font-family="sans-serif" font-size="9" font-weight="bold" fill="#991b1b">超额回报 α < 0</text>
+  <text x="330" y="258" font-family="sans-serif" font-size="9" font-weight="bold" fill="#991b1b">超额回报 α &lt; 0</text>
   <text x="330" y="270" font-family="sans-serif" font-size="9" fill="#991b1b">（在 SML 下方 = 高估）</text>
 </svg>

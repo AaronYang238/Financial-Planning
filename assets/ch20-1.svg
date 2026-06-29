@@ -2,7 +2,7 @@
   <text x="360" y="28" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="bold" fill="#1f2937">K 线结构：把四个价格压成一根棒</text>
   <!-- 阳线 -->
   <text x="180" y="65" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="bold" fill="#dc2626">阳线（涨）</text>
-  <text x="180" y="83" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#7f1d1d">收盘 > 开盘 → 红色</text>
+  <text x="180" y="83" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#7f1d1d">收盘 &gt; 开盘 → 红色</text>
   <!-- 上影线 -->
   <line x1="180" y1="100" x2="180" y2="140" stroke="#dc2626" stroke-width="2"/>
   <!-- 实体 -->
@@ -17,7 +17,7 @@
   <text x="180" y="320" text-anchor="middle" font-family="sans-serif" font-size="10" font-style="italic" fill="#7f1d1d">买方占优</text>
   <!-- 阴线 -->
   <text x="450" y="65" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="bold" fill="#16a34a">阴线（跌）</text>
-  <text x="450" y="83" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#14532d">收盘 < 开盘 → 绿色</text>
+  <text x="450" y="83" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#14532d">收盘 &lt; 开盘 → 绿色</text>
   <!-- 上影线 -->
   <line x1="450" y1="100" x2="450" y2="140" stroke="#16a34a" stroke-width="2"/>
   <!-- 实体（中空表示阴线，也可以用实色） -->
