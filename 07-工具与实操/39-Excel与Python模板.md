@@ -17,6 +17,26 @@
 
 ---
 
+## 📖 本章英文缩写速查
+
+> 看到不认识的英文缩写，先回这张表查；完整术语见 [GLOSSARY.md](../GLOSSARY.md)。
+
+| 缩写 | 英文全称 | 中文含义 |
+|---|---|---|
+| **FV** | Future Value | 终值（未来值） |
+| **PMT** | Payment | 每期等额支付金额（Excel 函数） |
+| **XIRR** | Extended Internal Rate of Return | 不规则现金流的内部收益率（真实年化收益） |
+| **PV** | Present Value | 现值 |
+| **RATE** | RATE function | Excel 函数：由现金流反推利率 |
+| **NPER** | Number of Periods | Excel 函数：求投资期数 |
+| **NPV** | Net Present Value | 净现值 |
+| **API** | Application Programming Interface | 应用程序接口（用于自动获取数据） |
+| **MPT** | Modern Portfolio Theory | 现代投资组合理论 |
+| **ETF** | Exchange-Traded Fund | 交易所交易基金 |
+| **QDII** | Qualified Domestic Institutional Investor | 合格境内机构投资者，借道投资海外的渠道 |
+
+---
+
 ## 0. 先讲个故事
 
 **小李 2024 年想算"30 岁开始月存 5000、年化 6%，60 岁有多少钱"**——他打开搜索：

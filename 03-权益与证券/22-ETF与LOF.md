@@ -16,6 +16,22 @@
 
 ---
 
+## 📖 本章英文缩写速查
+
+> 看到不认识的英文缩写，先回这张表查；完整术语见 [GLOSSARY.md](../GLOSSARY.md)。
+
+| 缩写 | 英文全称 | 中文含义 |
+|---|---|---|
+| **ETF** | Exchange-Traded Fund | 交易所交易基金 |
+| **LOF** | Listed Open-Ended Fund | 上市型开放式基金 |
+| **QDII** | Qualified Domestic Institutional Investor | 合格境内机构投资者，借道投资海外的渠道 |
+| **PCF** | Portfolio Composition File | ETF 申赎清单 |
+| **IOPV** | Indicative Optimized Portfolio Value | ETF 实时参考净值 |
+| **RMB** | Renminbi | 人民币 |
+| **NAV** | Net Asset Value | 基金/资产净值 |
+
+---
+
 ## 0. 先讲个故事
 
 **小张**和**小李** 2020 年同时看好沪深 300，各拿出 50 万。

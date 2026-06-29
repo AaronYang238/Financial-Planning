@@ -17,6 +17,19 @@
 
 ---
 
+## 📖 本章英文缩写速查
+
+> 看到不认识的英文缩写，先回这张表查；完整术语见 [GLOSSARY.md](../GLOSSARY.md)。
+
+| 缩写 | 英文全称 | 中文含义 |
+|---|---|---|
+| **MPT** | Modern Portfolio Theory | 现代投资组合理论 |
+| **ETF** | Exchange-Traded Fund | 交易所交易基金 |
+| **CAPM** | Capital Asset Pricing Model | 资本资产定价模型 |
+| **CML** | Capital Market Line | 资本市场线 |
+
+---
+
 ## 0. 先讲个故事
 
 **1952 年**，25 岁的博士生**马科维茨**写了一篇 14 页的论文《Portfolio Selection》。
